@@ -1,17 +1,17 @@
 # Company Information
-company_name: Adassa Academy
-domain_name: adassa.adassa.com.jm
+company_name: Adassa Store
+domain_name: store.adassa.com.jm
 address_line: Kingston
 country: Jamaica
 company_email: mail@adassa.com.jm
-description: This is the Adassa Academy website.
-meta_description: online education, e-learning, primary and secondary school mathematics, CSEC, CXC 
+description: This is the Adassa Store website.
+meta_description: business management system, engineering, information technology, personal development, personal products 
 
 # Site Information
-title: Adassa Academy
+title: Adassa Store
 author: Desmond Bennett
 baseurl: ""
-url: https://academy.adassa.com.jm
+url: https://store.adassa.com.jm
 
 # Social Links
 facebook_link: https://www.facebook.com/desmondpbennett
@@ -19,7 +19,7 @@ twitter_link: https://twitter.com/DPB_and_A
 github_link: https://github.com/Adassa-Enterprise-Solutions/
 
 disqus: false
-disqus_shortname: adassa_academy
+disqus_shortname: adassa_store
 
 paginate: 20
 
