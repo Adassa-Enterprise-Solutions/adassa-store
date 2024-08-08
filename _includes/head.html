@@ -1,0 +1,40 @@
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description }}" />
+    <title>{{ page.title }}</title>
+    <link rel="icon" href="/assets/media/AALogo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css"> 
+    <!-- Google Sign In -->
+    <script src="https://accounts.google.com/gsi/client" async="async" defer="defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
+    <script>
+        function handleCredentialResponse(response) {
+            // Extract the credential (JWT ID token)
+            const idToken = response.credential;
+
+            // Decode the JWT token to get its payload
+            const decodedToken = jwt_decode(idToken);
+            //console.log('Decoded Token:', decodedToken);
+
+            // Now you can access the fields in the decoded token
+            const email = decodedToken.email;
+            const name = decodedToken.sub; // tk sub could be stored in the database as userId field.
+
+            alert('Yes!: ' + email + " name: " + name);
+        }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKV8ZS7B90"></script>
+    <script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'G-YKV8ZS7B90');
+    </script>
+</head>

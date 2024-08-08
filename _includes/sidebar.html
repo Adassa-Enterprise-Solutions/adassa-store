@@ -1,0 +1,33 @@
+<div class="col-lg-4">
+    
+    {% include search-lunr.html %}
+
+    <h4>Recent Posts</h4>
+    <div class="hline"></div>
+    <ul class="popular-posts">
+        {% for post in site.posts limit:4 %}
+        <li>
+            <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+            <em>Posted on {{ post.date | date_to_string }}</em>
+            <br/>
+            <em>{{ post.description }}</em>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <div class="spacing"></div>    
+
+    <h4>Categories</h4>
+    <div class="hline"></div>
+    <ul class="categories">
+        {% for category in site.categories %}
+        <li>
+            <a href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}">
+                {{ category | first | capitalize }}
+            </a>
+            <!-- <span class="badge badge-theme pull-right">{{ category | last | size }}</span> -->
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>
