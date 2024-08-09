@@ -39,9 +39,9 @@ aquariums to incorporate elements that align with your vision.
 <p>
 The heart of your ornamental fish farm is the pond. Choosing the right pond is 
 critical for the well-being of your fish. You can opt for a pre-formed 
-fiberglass or <a href="https://amzn.to/3RRxzo0" target="_blank">plastic pond</a> 
+fiberglass or <a href="https://s.click.aliexpress.com/e/_oDvpAbD" target="_blank">plastic pond</a> 
 or get creative and build a custom pond using 
-<a href="https://amzn.to/41MJOqm" target="_blank">liners</a>. 
+<a href="https://s.click.aliexpress.com/e/_EGPTV9f" target="_blank">liners</a>. 
 Ensure that the pond is large enough to accommodate the number and size of fish 
 you plan to keep.
 
@@ -54,7 +54,7 @@ goldfish can thrive in shallower waters.
 <p>
 Maintaining clean and high-quality water is essential for the health of your 
 ornamental fish. Invest in a reliable 
-<a href="https://amzn.to/48FmXzh" target="_blank">water filtration system</a> 
+<a href="https://s.click.aliexpress.com/e/_EG1iOS9" target="_blank">water filtration system</a> 
 to remove debris, chemicals, and harmful bacteria. A combination of mechanical, 
 biological, and chemical filtration will help maintain optimal water conditions.
 
