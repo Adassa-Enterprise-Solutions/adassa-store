@@ -2,7 +2,7 @@
 layout: blog-layout
 title: Adassa Store - Product Categories
 permalink: /category/
-description: This lists the Adassa blog categories.
+description: This lists the Adassa Store blog categories. You may find categories for your personal and business edification.
 ---
 
 <div class="container mtb font-size-1-5em">
@@ -10,7 +10,7 @@ description: This lists the Adassa blog categories.
 
     <div class="row">
         <div class="col-lg-8">
-            <!-- BLOG POSTS LIST -->
+           
             {% for category in site.categories %}
             <a class="anchor" id="{{ category.first }}"></a>
             <h4>{{ category.first }}</h4>
@@ -27,9 +27,9 @@ description: This lists the Adassa blog categories.
                 {% endfor %}
             </ul>
             {% endfor %}
-        </div><!--/col-lg-8 -->
+        </div>
 
         {% include sidebar.html %}
 
-    </div><!--/row -->
-</div><!--/container -->
+    </div>
+</div>

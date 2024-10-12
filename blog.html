@@ -1,17 +1,16 @@
 ---
 layout: blog-layout
 title: Adassa Store Blog - Your personal and business blog 
-description: This is the Adassa blog.
+description: Welcome to the Adassa Store blog! You can find a post for your personal and business edification.
 ---
 
 <div class="container blog-section font-size-1-5em">
     <div class="row">
 
-        <!-- BLOG POSTS LIST -->
-        <div class="col-lg-8">
+         <div class="col-lg-8">
 
             {% for post in site.posts limit:28 %}
-            <!-- Blog Post -->
+            
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <img class="img-fluid mb-3 post-feature-image" 
                      src="{{ "/assets/media/blog/" | prepend: site.baseurl }}{{ post.img }}">
@@ -27,9 +26,9 @@ description: This is the Adassa blog.
             <div class="spacing"></div>
             {% endfor %}
 
-        </div><!--/col-lg-8 -->
+        </div>
 
         {% include sidebar.html %}
 
-    </div><!--/row -->    
+    </div>
 </div>
