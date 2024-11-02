@@ -1,7 +1,7 @@
 ---
 layout: blog-layout
-title: Adassa Store Blog - Your personal and business blog 
-description: Welcome to the Adassa Store blog! You can find a post for your personal and business edification.
+title: The Adassa Store Blog for your home and business needs. 
+description: Welcome to the Adassa Store blog! You can find a post that provides personal or business edification and innovation. Enjoy!
 ---
 
 <div class="container blog-section font-size-1-5em">
@@ -13,6 +13,7 @@ description: Welcome to the Adassa Store blog! You can find a post for your pers
             
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <img class="img-fluid mb-3 post-feature-image" 
+                     alt="{{ post.img-alt }}"
                      src="{{ "/assets/media/blog/" | prepend: site.baseurl }}{{ post.img }}">
             </a>
             <a href="{{ post.url | prepend: site.baseurl }}">
