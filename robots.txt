@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /admin/
 Disallow: /private/
 Allow: /
+Sitemap: https://store.adassa.com.jm/sitemap.xml
