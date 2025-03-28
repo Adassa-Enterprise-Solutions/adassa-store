@@ -93,9 +93,9 @@ healthy and active.
     {% for product in site.data.products %}
     <div class="centred">
         {% if product.categories contains 'Fish Food' %}
-        <h1 class="title">
+        <h2 class="title">
             <a href="{{product.link}}">{{product.name}}</a>
-        </h1>
+        </h2>
 
         <a href="{{product.link}}">
             <img class="img-fluid mb-3 post-feature-image" 
