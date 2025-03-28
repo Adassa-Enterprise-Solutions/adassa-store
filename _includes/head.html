@@ -1,9 +1,20 @@
 <head>  
+    <title>{{ page.title }}</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ page.description }}" />
-    <title>{{ page.title }}</title>
+    <meta property="og:title" content="{{ page.title | escape }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:image" content="{{ page.image | absolute_url }}" />
+    <meta property="og:description" content="{{ page.description | escape }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="fb:app_id" content="2253948921630190" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ page.title | escape }}" />
+    <meta name="twitter:description" content="{{ page.description | escape }}" />
+    <meta name="twitter:image" content="{{ page.image | absolute_url }}" />    
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="icon" href="/assets/media/ASLogo.svg" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -12,28 +23,30 @@
     <script src="https://accounts.google.com/gsi/client" async="async" defer="defer"></script>
     <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
     <script>
-        function handleCredentialResponse(response) {
-            // Extract the credential (JWT ID token)
-            const idToken = response.credential;
+function handleCredentialResponse(response) {
+    // Extract the credential (JWT ID token)
+    const idToken = response.credential;
 
-            // Decode the JWT token to get its payload
-            const decodedToken = jwt_decode(idToken);
-            //console.log('Decoded Token:', decodedToken);
+    // Decode the JWT token to get its payload
+    const decodedToken = jwt_decode(idToken);
+    //console.log('Decoded Token:', decodedToken);
 
-            // Now you can access the fields in the decoded token
-            const email = decodedToken.email;
-            const name = decodedToken.sub; // tk sub could be stored in the database as userId field.
+    // Now you can access the fields in the decoded token
+    const email = decodedToken.email;
+    const name = decodedToken.sub; // tk sub could be stored in the database as userId field.
 
-            alert('Yes!: ' + email + " name: " + name);
-        }
+    alert('Yes!: ' + email + " name: " + name);
+}
     </script>  
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-78KB23629K"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
 
-      gtag('config', 'G-78KB23629K');
+gtag('config', 'G-78KB23629K');
     </script>
 </head>
