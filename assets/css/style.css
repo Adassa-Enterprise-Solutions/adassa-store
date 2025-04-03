@@ -319,7 +319,7 @@ header .logo p {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 3rem auto 5rem auto;
+    margin: 0.5rem auto 5rem auto;
 }
 
 .products div {
