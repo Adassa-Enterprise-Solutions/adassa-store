@@ -39,7 +39,7 @@ aquariums to incorporate elements that align with your vision.
 
 The heart of your ornamental fish farm is the pond. Choosing the right pond is 
 critical for the well-being of your fish. You can opt for a pre-formed 
-fiberglass or <a href="https://s.click.aliexpress.com/e/_oDvpAbD" target="_blank">plastic pond</a> 
+fiberglass or <a href="https://amzn.to/3FXGmlZ" target="_blank">plastic pond</a> 
 or get creative and build a custom pond using 
 <a href="https://s.click.aliexpress.com/e/_EGPTV9f" target="_blank">liners</a>. 
 Ensure that the pond is large enough to accommodate the number and size of fish 
