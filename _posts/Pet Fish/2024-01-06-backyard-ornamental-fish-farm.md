@@ -3,7 +3,6 @@ layout: post-layout
 title: Creating and Operating Your Own Backyard Ornamental Fish Farm.
 author: Desmond Bennett
 description: This blog post is a comprehensive guide to setting up and operating an ornamental (pet) fish farm in your backyard. Enjoy!
-date: 2024-01-06
 categories:
 - Farming
 - Pet/Ornamental Fish 
