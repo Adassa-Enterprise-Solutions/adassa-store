@@ -357,7 +357,7 @@ header .logo p {
 
 .products .title {
     font-weight: 500;
-    margin: auto 1rem auto 1rem;
+    margin: auto 1rem 1rem 1rem;
 }
 
 .products .description {
@@ -625,4 +625,10 @@ footer .bi-youtube {
     background-color: lightblue;
     padding-left: 0.25em;
     padding-right: 0.25em;
+}
+
+ul, ol {
+  margin-left: 1.5rem;  /* Creates the indentation */
+  padding-left: 1rem;   /* Optional: tweak if bullets are too far */
+  list-style-position: outside;
 }

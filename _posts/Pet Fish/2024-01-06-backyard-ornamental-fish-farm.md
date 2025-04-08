@@ -3,9 +3,8 @@ layout: post-layout
 title: Creating and Operating Your Own Backyard Ornamental Fish Farm.
 author: Desmond Bennett
 description: This blog post is a comprehensive guide to setting up and operating an ornamental (pet) fish farm in your backyard. Enjoy!
-categories:
-- Farming
-- Pet/Ornamental Fish 
+categories: [Ornamental Fish, Aquariums, Fishkeeping, Fishpond]
+tags: [aquarium setup, freshwater fish, beginner fishkeeping, fish tank guide]
 img: FishPond.jpg
 img-alt: Fish pond
 thumb: FishPond.jpg
@@ -87,22 +86,22 @@ Develop a feeding schedule and monitor your fish's behavior to ensure they are
 healthy and active.
 
 <div class="products">
-    {% for product in site.data.products %}
-    <div class="centred">
+    {% for product in site.data.products %}    
         {% if product.categories contains 'Fish Food' %}
-        <h2 class="title">
-            <a href="{{product.link}}">{{product.name}}</a>
-        </h2>
+            <div class="centred">
+                <h2 class="title">
+                    <a href="{{product.link}}">{{product.name}}</a>
+                </h2>
 
-        <a href="{{product.link}}">
-            <img class="img-fluid mb-3 post-feature-image" 
-                 alt="{{product.name}}"
-                 src="{{product.image}}">
-        </a>
+                <a href="{{product.link}}">
+                    <img class="img-fluid mb-3 post-feature-image" 
+                         alt="{{product.name}}"
+                         src="{{product.image}}">
+                </a>
 
-        <a href="{{product.link}}" class="btn">Buy now</a>
-        {% endif %}
-    </div>
+                <a href="{{product.link}}" class="btn">Buy now</a>
+            </div>
+        {% endif %}    
     {% endfor %}                
 </div>
 
