@@ -1,0 +1,27 @@
+Sample prompt:
+
+Provide the "Best Fish Tank Filters for Different Aquarium Sizes" post that can 
+be copied as a markdown document for use in a Jekyll blog. Also, provide 
+SEO-friendly title, description and content. Include recommended Amazon products. 
+
+Starting posts:
+
+Beginner’s Guide to Setting Up a Freshwater Aquarium - done
+
+Best Fish Tank Filters for Different Aquarium Sizes - done
+
+How to Breed Betta Fish: A Step-by-Step Guide
+
+The Top 10 Low-Maintenance Fish for Beginners
+
+Essential Equipment for a Thriving Planted Aquarium
+
+How to Maintain Water Quality in an Aquarium
+
+Best Aquarium Heaters for Tropical Fish
+
+DIY vs. Store-Bought Fish Tank Stands: Which is Better?
+
+Common Fish Diseases and How to Treat Them
+
+Best LED Aquarium Lights for Plant Growth and Fish Health
