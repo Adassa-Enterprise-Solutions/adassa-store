@@ -1,6 +1,6 @@
 Sample prompt:
 
-Provide the "Best Fish Tank Filters for Different Aquarium Sizes" post that can 
+Write the "The Top 10 Low-Maintenance Fish for Beginners" blog post that can 
 be copied as a markdown document for use in a Jekyll blog. Also, provide 
 SEO-friendly title, description and content. Include recommended Amazon products. 
 
@@ -10,7 +10,7 @@ Beginner’s Guide to Setting Up a Freshwater Aquarium - done
 
 Best Fish Tank Filters for Different Aquarium Sizes - done
 
-How to Breed Betta Fish: A Step-by-Step Guide
+How to Breed Betta Fish: A Step-by-Step Guide - done
 
 The Top 10 Low-Maintenance Fish for Beginners
 
