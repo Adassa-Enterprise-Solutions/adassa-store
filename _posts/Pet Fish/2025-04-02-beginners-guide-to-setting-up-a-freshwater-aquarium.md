@@ -1,6 +1,6 @@
 ---
 layout: post-layout
-title: "Beginner’s Guide to Setting Up a Freshwater Aquarium"
+title: "Beginner's Guide to Setting Up a Freshwater Aquarium"
 author: Desmond Bennett
 description: "Learn how to set up a freshwater aquarium with this step-by-step guide. Perfect for beginners looking to create a thriving aquatic environment."
 categories: [Aquariums, Fishkeeping]

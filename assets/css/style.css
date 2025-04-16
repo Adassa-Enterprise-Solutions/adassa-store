@@ -632,3 +632,8 @@ ul, ol {
   padding-left: 1rem;   /* Optional: tweak if bullets are too far */
   list-style-position: outside;
 }
+
+html {
+  scroll-padding-top: 80px; // Adjust as needed
+}
+

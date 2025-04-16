@@ -1,8 +1,8 @@
 Sample prompt:
 
-Write the "The Top 10 Low-Maintenance Fish for Beginners" blog post that can 
-be copied as a markdown document for use in a Jekyll blog. Also, provide 
-SEO-friendly title, description and content. Include recommended Amazon products. 
+Write the "Essential Equipment for a Thriving Planted Aquarium" blog post that can 
+be copied as a markdown document for use in a Jekyll blog. Also, optimize 
+the title, description and content for SEO. Include recommended Amazon products. 
 
 Starting posts:
 
@@ -12,7 +12,7 @@ Best Fish Tank Filters for Different Aquarium Sizes - done
 
 How to Breed Betta Fish: A Step-by-Step Guide - done
 
-The Top 10 Low-Maintenance Fish for Beginners
+The Top 10 Low-Maintenance Fish for Beginners - done
 
 Essential Equipment for a Thriving Planted Aquarium
 
