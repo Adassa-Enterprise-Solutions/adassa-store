@@ -1,6 +1,6 @@
 Sample prompt:
 
-Write the "How to Maintain Water Quality in an Aquarium" blog post that can 
+Write the "Best Aquarium Heaters for Tropical Fish" blog post that can 
 be copied as a markdown document for use in a Jekyll blog. Also, optimize 
 the title, description and content for SEO. Include recommended Amazon products. 
 Include the front matter "author: Desmond Bennett" and "layout: post-layout".

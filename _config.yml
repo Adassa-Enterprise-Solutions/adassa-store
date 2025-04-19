@@ -25,3 +25,6 @@ paginate: 20
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
