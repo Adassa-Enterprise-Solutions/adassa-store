@@ -1,8 +1,9 @@
 Sample prompt:
 
-Write the "Essential Equipment for a Thriving Planted Aquarium" blog post that can 
+Write the "How to Maintain Water Quality in an Aquarium" blog post that can 
 be copied as a markdown document for use in a Jekyll blog. Also, optimize 
 the title, description and content for SEO. Include recommended Amazon products. 
+Include the front matter "author: Desmond Bennett" and "layout: post-layout".
 
 Starting posts:
 
@@ -14,9 +15,9 @@ How to Breed Betta Fish: A Step-by-Step Guide - done
 
 The Top 10 Low-Maintenance Fish for Beginners - done
 
-Essential Equipment for a Thriving Planted Aquarium
+Essential Equipment for a Thriving Planted Aquarium - done
 
-How to Maintain Water Quality in an Aquarium
+How to Maintain Water Quality in an Aquarium - done
 
 Best Aquarium Heaters for Tropical Fish
 
