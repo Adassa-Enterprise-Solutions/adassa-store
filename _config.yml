@@ -21,10 +21,17 @@ github_link: https://github.com/Adassa-Enterprise-Solutions/
 disqus: false
 disqus_shortname: adassa_store
 
-paginate: 20
-
 # Build settings
 markdown: kramdown
 
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-paginate-v2
+
+jekyll_admin:
+  hidden_links:
+    - configuration
+  homepage: "pages"  
