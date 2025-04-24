@@ -69,7 +69,25 @@ One of the most advanced heaters on the market, perfect for serious aquarists.
 
 ### 2. **Eheim Jager Aquarium Thermostat Heater**
 
-[![Eheim Jager Heater](https://m.media-amazon.com/images/I/61lTXn5nHdL._AC_SL1500_.jpg)](https://www.amazon.com/dp/B0002AQITK?tag=youraffiliatetag)
+<div class="products">
+    {% for product in site.data.products %}   
+        {% if product.name contains 'EHEIM Jager Aquarium Thermostat Heater' %}
+            <div class="centred">
+                <h2 class="title">
+                    <a href="{{product.link}}">{{product.name}}</a>
+                </h2>
+
+                <a href="{{product.link}}">
+                    <img class="img-fluid mb-3 post-feature-image" 
+                         alt="{{product.name}}"
+                         src="{{product.image}}">
+                </a>
+
+                <a href="{{product.link}}" class="btn">Buy now</a>
+            </div>
+        {% endif %}   
+    {% endfor %}                
+</div>
 
 **Key Features:**
 - Precision temperature dial (65°F - 93°F)
@@ -83,7 +101,25 @@ Trusted German engineering, accurate, and long-lasting.
 
 ### 3. **AQQA 500W Adjustable Aquarium Heater with External Controller**
 
-[![AQQA Heater](https://m.media-amazon.com/images/I/61A5qK1uqcL._AC_SL1500_.jpg)](https://www.amazon.com/dp/B08KTWXR5N?tag=youraffiliatetag)
+<div class="products">
+    {% for product in site.data.products %}   
+        {% if product.name contains 'AQQA Aquarium Heater 500W Heater' %}
+            <div class="centred">
+                <h2 class="title">
+                    <a href="{{product.link}}">{{product.name}}</a>
+                </h2>
+
+                <a href="{{product.link}}">
+                    <img class="img-fluid mb-3 post-feature-image" 
+                         alt="{{product.name}}"
+                         src="{{product.image}}">
+                </a>
+
+                <a href="{{product.link}}" class="btn">Buy now</a>
+            </div>
+        {% endif %}   
+    {% endfor %}                
+</div>
 
 **Key Features:**
 - Digital temperature display
@@ -95,9 +131,27 @@ Affordable option with easy adjustments and reliable performance.
 
 ---
 
-### 4. **Hygger Titanium Submersible Heater**
+### 4. **hygger Titanium Submersible Heater**
 
-[![Hygger Titanium Heater](https://m.media-amazon.com/images/I/71NVxTLMmRL._AC_SL1500_.jpg)](https://www.amazon.com/dp/B08F7JMYK8?tag=youraffiliatetag)
+<div class="products">
+    {% for product in site.data.products %}   
+        {% if product.name contains 'hygger 200W Titanium Aquarium Heater' %}
+            <div class="centred">
+                <h2 class="title">
+                    <a href="{{product.link}}">{{product.name}}</a>
+                </h2>
+
+                <a href="{{product.link}}">
+                    <img class="img-fluid mb-3 post-feature-image" 
+                         alt="{{product.name}}"
+                         src="{{product.image}}">
+                </a>
+
+                <a href="{{product.link}}" class="btn">Buy now</a>
+            </div>
+        {% endif %}   
+    {% endfor %}                
+</div>
 
 **Key Features:**
 - Durable titanium tube – corrosion-resistant
@@ -111,7 +165,25 @@ Ideal for larger or saltwater aquariums, built to last.
 
 ### 5. **Tetra HT Submersible Aquarium Heater**
 
-[![Tetra HT Heater](https://m.media-amazon.com/images/I/61ShA7m5KGL._AC_SL1000_.jpg)](https://www.amazon.com/dp/B000OQO69Q?tag=youraffiliatetag)
+<div class="products">
+    {% for product in site.data.products %}   
+        {% if product.name contains 'Tetra HT Submersible Aquarium Heater' %}
+            <div class="centred">
+                <h2 class="title">
+                    <a href="{{product.link}}">{{product.name}}</a>
+                </h2>
+
+                <a href="{{product.link}}">
+                    <img class="img-fluid mb-3 post-feature-image" 
+                         alt="{{product.name}}"
+                         src="{{product.image}}">
+                </a>
+
+                <a href="{{product.link}}" class="btn">Buy now</a>
+            </div>
+        {% endif %}   
+    {% endfor %}                
+</div>
 
 **Key Features:**
 - Preset to 78°F – no manual adjustment needed
