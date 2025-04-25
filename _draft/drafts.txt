@@ -1,9 +1,9 @@
 Sample prompt:
 
-Write the "Best Aquarium Heaters for Tropical Fish" blog post that can 
+Write the "DIY vs. Store-Bought Fish Tank Stands: Which is Better?" blog post that can 
 be copied as a markdown document for use in a Jekyll blog. Also, optimize 
 the title, description and content for SEO. Include recommended Amazon products. 
-Include the front matter "author: Desmond Bennett" and "layout: post-layout".
+Include the front matter "author: Desmond Bennett", "layout: post-layout" and a suitable list of tags.
 
 Starting posts:
 
@@ -19,7 +19,7 @@ Essential Equipment for a Thriving Planted Aquarium - done
 
 How to Maintain Water Quality in an Aquarium - done
 
-Best Aquarium Heaters for Tropical Fish
+Best Aquarium Heaters for Tropical Fish - done
 
 DIY vs. Store-Bought Fish Tank Stands: Which is Better?
 
