@@ -7,14 +7,14 @@ description: Welcome to the home of Adassa Store where you can find a product or
 <section id="featured-products">
     <div class="centred">
         <h1 class="mt-5" 
-           style="font-weight: bold;font-size: xx-large;color: darkgray;">
-           Featured Products
+            style="font-weight: bold;font-size: xx-large;color: darkgray;">
+            Featured Products
         </h1> 
     </div>
     <div class="products">
         {% for product in site.data.products %}
         <div class="centred">
-           
+
             <h2 class="title">
                 <a href="{{product.link}}">{{product.name}}</a>
             </h2>
@@ -26,7 +26,7 @@ description: Welcome to the home of Adassa Store where you can find a product or
             </a>
 
             <a href="{{product.link}}" class="btn">Buy now</a>
-            
+
         </div>
         {% endfor %}                
     </div>          
