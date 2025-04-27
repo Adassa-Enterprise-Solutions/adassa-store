@@ -1,9 +1,11 @@
 Sample prompt:
 
-Write the "DIY vs. Store-Bought Fish Tank Stands: Which is Better?" blog post that can 
+Write the "Common Fish Diseases and How to Treat Them" blog post that can 
 be copied as a markdown document for use in a Jekyll blog. Also, optimize 
-the title, description and content for SEO. Include recommended Amazon products. 
-Include the front matter "author: Desmond Bennett", "layout: post-layout" and a suitable list of tags.
+the title, description, tags and content for SEO. Include recommended Amazon products. 
+Include the front matter: "author: Desmond Bennett", 
+"layout: post-layout", img: blog-image.jpg, img-alt: Blog Image, 
+and thumb: blog-image.jpg.
 
 Starting posts:
 
@@ -21,8 +23,6 @@ How to Maintain Water Quality in an Aquarium - done
 
 Best Aquarium Heaters for Tropical Fish - done
 
-DIY vs. Store-Bought Fish Tank Stands: Which is Better?
+DIY vs. Store-Bought Fish Tank Stands: Which is Better? - done
 
-Common Fish Diseases and How to Treat Them
-
-Best LED Aquarium Lights for Plant Growth and Fish Health
+Common Fish Diseases and How to Treat Them - done
