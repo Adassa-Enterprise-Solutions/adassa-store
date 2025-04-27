@@ -4,9 +4,9 @@ description: "Learn how to identify, prevent, and treat the most common fish dis
 tags: [fish diseases, aquarium care, fish health, pond fish treatment, fish medication, goldfish care, fishkeeping tips]
 author: Desmond Bennett
 layout: post-layout
-img: blog-image.jpg
-img-alt: Blog Image
-thumb: blog-image.jpg
+img: blackmoore-ich.webp
+img-alt: Black moore with ich
+thumb: blackmoore-ich.webp
 ---
 
 Keeping your fish healthy is crucial to maintaining a thriving aquarium or pond. 
