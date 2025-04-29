@@ -1,35 +1,27 @@
-name: Build and Deploy Jekyll site to GitHub Pages.
-
-on:
-  push:
-    branches:
-      - main   # Whenever you push to main, trigger the workflow
-
 jobs:
-  jekyll-build:
+  # Build job
+  build:
+    # <Not provided for brevity>
+    # At a minimum this job should upload artifacts using actions/upload-pages-artifact
+
+  # Deploy job
+  deploy:
+    # Add a dependency to the build job
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Source
-        uses: actions/checkout@v4
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.2'  # or your Ruby version
-          bundler-cache: true
-
-      - name: Install Dependencies
-        run: |
-          bundle install
-
-      - name: Build Jekyll Site
-        run: |
-          bundle exec jekyll build
-
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          publish_dir: ./_site
-          publish_branch: gh-pages
-
+        id: deployment
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
