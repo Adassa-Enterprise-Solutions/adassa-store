@@ -33,7 +33,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-paginate-v2
   - jekyll-disqus
-  - kramdown-parser-gfm
 
 jekyll_admin:
   hidden_links:
