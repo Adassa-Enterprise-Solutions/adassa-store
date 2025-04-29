@@ -8,11 +8,14 @@
                 <div class="col-lg-8">
                     <h1 class="ctitle">{{ page.title }}</h1>
                     <div class="hline"></div>
-                    {{ content }}
+                    {{ content }}                   
                 </div>
                 {% include sidebar.html %}
-            </div>             
+            </div>   
+            
+            {% disqus %}
         </div>
+        
         {% include footer.html %}
     </body>  
 </html>
