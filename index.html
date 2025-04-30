@@ -4,10 +4,40 @@ title: Adassa Store - All your personal and business needs
 description: Welcome to the home of Adassa Store where you can find a product or service to meet your personal and business needs.
 ---
 
-<section id="featured-products">
-    <div class="centred">
-        <h1 class="mt-5" 
-            style="font-weight: bold;font-size: xx-large;color: darkgray;">
+<section>
+    <div class="hero">
+        <h1>
+            Welcome to Adassa Store!
+        </h1>
+        <p>
+            Find everything you need for your <a href="/">freshwater aquariums and ponds</a> 
+            — from <a href="/">beginner kits</a> to <a href="/">expert supplies</a>. 
+            Dive into our carefully curated collection!
+        </p>
+    </div>
+</section>
+
+
+<section>
+    <div class="recent-articles">
+        <h1>
+            Recent Articles
+        </h1>   
+        <ul class="recent-posts">
+        {% for post in site.posts limit:4 %}
+            <li>
+                <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+                <em>Posted on {{ post.date | date_to_string }}</em>
+                <p>{{ post.description }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+    </div>
+</section>
+
+<section>
+    <div class="featured-products">
+        <h1>
             Featured Products
         </h1> 
     </div>

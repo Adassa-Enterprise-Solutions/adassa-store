@@ -621,19 +621,89 @@ footer .bi-youtube {
 }
 
 .nav-item-highlighted {
-    color: whitesmoke; 
+    color: whitesmoke;
     background-color: lightblue;
     padding-left: 0.25em;
     padding-right: 0.25em;
 }
 
 ul, ol {
-  margin-left: 1.5rem;  /* Creates the indentation */
-  padding-left: 1rem;   /* Optional: tweak if bullets are too far */
-  list-style-position: outside;
+    margin-left: 1.5rem;  /* Creates the indentation */
+    padding-left: 1rem;   /* Optional: tweak if bullets are too far */
+    list-style-position: outside;
 }
 
 html {
-  scroll-padding-top: 80px; // Adjust as needed
+    scroll-padding-top: 80px;
+    // Adjust as needed
 }
 
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: darkgray;
+}
+
+.hero p {
+    font-weight: normal;
+    font-size: 2rem;
+    color: gray;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.recent-articles {
+    text-align: center;
+}
+
+.recent-articles h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: darkgray;
+    margin-top: 50px;
+}
+
+.featured-products {
+    text-align: center;
+}
+
+.featured-products h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: darkgray;
+    margin-top: 50px;
+}
+
+.recent-posts li {
+    list-style: none;
+    margin-bottom: 20px;
+    min-height: 70px;
+}
+.recent-posts li a,
+.recent-posts li a:hover {
+    color:var(--theme-color-hover);
+    text-decoration: none;
+}
+
+.recent-posts li img {
+    float: left;
+    margin-right: 20px;
+}
+
+.recent-posts li em {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    color: #b3b3b3;        
+}
+
+.recent-posts p {
+    line-height: normal;
+    font-size: 2rem;
+    margin-bottom: auto;
+    margin-left: 75px;
+    margin-right: 75px;
+}
