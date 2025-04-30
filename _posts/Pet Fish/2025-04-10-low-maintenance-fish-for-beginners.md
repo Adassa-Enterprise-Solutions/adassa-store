@@ -404,7 +404,7 @@ are perfect for beginners and will bring life and color to your home with little
 Choose the ones that suit your tank size and water conditions best—and happy fishkeeping!
 
 If you found this guide helpful, don’t forget to share it and check out our 
-[Beginner’s Guide to Setting Up a Freshwater Aquarium]({% post_url 2025-04-02-beginners-guide-to-setting-up-a-freshwater-aquarium %})
+[Beginner’s Guide to Setting Up a Freshwater Aquarium]({% link _posts/Pet Fish/2025-04-02-beginners-guide-to-setting-up-a-freshwater-aquarium.md %})
 for more tips!
 
 

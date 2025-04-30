@@ -6,7 +6,7 @@ layout: post-layout
 img: koi-sticks.jpg
 img-alt: Koi Sticks
 thumb: koi-sticks.jpg
-tags: ["fish farming", "aquaculture", "fish feed", "Jamaica", "tropical fish", "best fish food", "pond management"]
+tags: ["fish farming", "aquaculture", "fish feed", "Jamaica", "tropical fish", "best fish food", "aquarium and pond management"]
 ---
 
 Feeding your tropical fish the right flakes and pellets is one of the most important 
@@ -27,11 +27,11 @@ recommendations.
 ## Why Choosing the Right Fish Feed Matters
 
 - **Supports rapid growth:** Protein-rich diets allow tropical fish to reach market size faster.
-- **Maintains water quality:** High-quality feed produces less waste, leading to clearer, healthier ponds.
+- **Maintains water quality:** High-quality feed produces less waste, leading to clearer, healthier aquariums and ponds.
 - **Enhances fish health:** Balanced vitamins and minerals boost resistance to common fish diseases.
 - **Improves profitability:** Healthy fish grow faster and fetch better prices!
 
-👉 Looking for affordable, high-quality fish feed? Check out the [Fish Food section at Adassa Store](https://store.adassa.com.jm/category/fish-food).
+👉 Looking for affordable, high-quality fish feed? Check out the [Fish Food section at Adassa Store](/sections/fish-food).
 
 ---
 
@@ -99,7 +99,25 @@ recommendations.
 
 ### 3. **Omega One Super Color Flakes**
 
-![Omega One Super Color Flakes](https://m.media-amazon.com/images/I/91ZuXn3wvZL._AC_SL1500_.jpg)
+<div class="products">
+    {% for product in site.data.products %}   
+        {% if product.name contains 'Omega One Super Color Flakes' %}
+            <div class="centred">
+                <h2 class="title">
+                    <a href="{{product.link}}">{{product.name}}</a>
+                </h2>
+
+                <a href="{{product.link}}">
+                    <img class="img-fluid mb-3 post-feature-image" 
+                         alt="{{product.name}}"
+                         src="{{product.image}}">
+                </a>
+
+                <a href="{{product.link}}" class="btn">Buy now</a>
+            </div>
+        {% endif %}   
+    {% endfor %}                
+</div>
 
 - Whole seafood protein source (salmon, shrimp).
 - Naturally boosts color without synthetic additives.
@@ -109,36 +127,39 @@ recommendations.
 
 ---
 
-## Feed Products Available Locally
+## Feed Products Available
 
-You can also find select fish flakes, pellets, and pond equipment at our [Adassa Store](https://store.adassa.com.jm/), including:
+You can also find select fish flakes, pellets, aquarium, and pond equipment at our 
+[Adassa Store](/sections), including:
 
-- [Fish Flakes & Fish Pellets](https://store.adassa.com.jm/category/fish-food)
-- [Filtration Systems](https://store.adassa.com.jm/category/filtration)
-- [Pond Supplies](https://store.adassa.com.jm/category/pond-supplies)
+- [Fish Flakes & Fish Pellets](/sections/fish-food)
+- [Filtration Systems](/sections/filtration)
 
-We focus on products suited for Jamaica's tropical environment to help you grow healthier fish year-round.
+We focus on products suited for tropical environments to help you grow 
+healthier fish year-round.
 
 ---
 
-## Tips for Feeding Fish in Tropical Ponds
+## Tips for Feeding Fish in Tropical Aquariums and Ponds
 
 - **Feed early morning or late afternoon** when pond temperatures are stable.
 - **Adjust feeding rates** based on water temperature and fish size.
 - **Remove uneaten food** after 15–20 minutes to maintain good water quality.
 - **Store feed in a cool, dry place** to preserve nutrition.
 
-For a detailed guide on pond management, check out our upcoming article: *"How to 
-Set Up a Backyard Fish Pond in Jamaica"* — stay tuned!
+For a detailed guide on pond setup and management, see the article: 
+[Creating and Operating Your Own Backyard Ornamental Fish Farm]({% link _posts/Pet Fish/2024-01-06-backyard-ornamental-fish-farm.md %}).
 
 ---
 
 ## Final Thoughts
 
-Feeding your fish the right flakes and pellets isn't just about making them grow — it's about creating a sustainable, profitable, and healthy aquaculture system.
+Feeding your fish the right flakes and pellets isn't just about making them grow 
+— it's about creating a sustainable, profitable, and healthy aquaculture system.
 
-By choosing high-quality feed like Tetra, Hikari, or Omega One and combining it with local resources from [Adassa Store](https://store.adassa.com.jm/), you're setting your fish farm up for success.
+By choosing high-quality feed like Tetra, Hikari, or Omega One and combining it 
+with local resources from [Adassa Store](/), you're setting your fish farm up for success.
 
-**Happy fish farming, Jamaica!** 🇯🇲🐟
+**Happy fish farming, Jamaica!**🐟
 
 *Have questions or experiences to share? Drop a comment below!*

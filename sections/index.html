@@ -1,0 +1,33 @@
+---
+layout: home-layout
+title: Adassa Store - All your personal and business needs
+description: Welcome to the home of Adassa Store where you can find a product or service to meet your personal and business needs.
+---
+
+<section id="featured-products">
+    <div class="centred">
+        <h1 class="mt-5" 
+            style="font-weight: bold;font-size: xx-large;color: darkgray;">
+            Our Affiliate Products
+        </h1> 
+    </div>
+    <div class="products">
+        {% for product in site.data.products %}
+        <div class="centred">
+
+            <h2 class="title">
+                <a href="{{product.link}}">{{product.name}}</a>
+            </h2>
+
+            <a href="{{product.link}}">
+                <img class="img-fluid mb-3 post-feature-image" 
+                     alt="{{product.name}}"
+                     src="{{product.image}}">
+            </a>
+
+            <a href="{{product.link}}" class="btn">Buy now</a>
+
+        </div>
+        {% endfor %}                
+    </div>          
+</section>
