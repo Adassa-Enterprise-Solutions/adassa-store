@@ -1,0 +1,34 @@
+<head>  
+    <title>{{ page.title }}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description }}" />    
+    <meta property="og:title" content="{{ page.title | escape }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:image" content="{{ page.image | absolute_url }}" />
+    <meta property="og:description" content="{{ page.description | escape }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="fb:app_id" content="2253948921630190" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ page.title | escape }}" />
+    <meta name="twitter:description" content="{{ page.description | escape }}" />
+    <meta name="twitter:image" content="{{ page.image | absolute_url }}" />    
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="icon" href="/assets/media/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">  
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VFVKEYTVDM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-VFVKEYTVDM');
+    </script>
+</head>

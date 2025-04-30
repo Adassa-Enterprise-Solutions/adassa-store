@@ -1,28 +1,46 @@
 Sample prompt:
 
-Write the "Common Fish Diseases and How to Treat Them" blog post that can 
+Write the "Best Fish Flakes and Pellets for Tropical Fish Farming in Jamaica" blog post that can 
 be copied as a markdown document for use in a Jekyll blog. Also, optimize 
 the title, description, tags and content for SEO. Include recommended Amazon products. 
+Where possible reference the existing products and posts on the site at https://store.adassa.com.jm/.  
 Include the front matter: "author: Desmond Bennett", 
 "layout: post-layout", img: blog-image.jpg, img-alt: Blog Image, 
 and thumb: blog-image.jpg.
 
-Starting posts:
+Quick Article Ideas for Your Store Blog:
 
-Beginner’s Guide to Setting Up a Freshwater Aquarium - done
+🛠 Product Guides
+"Best Fish Flakes and Pellets for Tropical Fish Farming in Jamaica"
+(Target affiliate products you sell — you can recommend your linked products naturally.)
 
-Best Fish Tank Filters for Different Aquarium Sizes - done
+"Choosing the Right Pond Aerator for Small and Medium-Scale Fish Farms"
+(Explain why aeration matters, then link to your aerators or filters.)
 
-How to Breed Betta Fish: A Step-by-Step Guide - done
+"Top 5 Pond Filters for Clearer Water and Healthier Fish"
+(Mini-reviews of different filters you list or link to.)
 
-The Top 10 Low-Maintenance Fish for Beginners - done
+📚 How-To / Educational Posts
+"How to Set Up a Backyard Fish Pond in 7 Easy Steps"
+(Basic DIY pond setup — perfect to sell pond liners, pumps, filters, etc.)
 
-Essential Equipment for a Thriving Planted Aquarium - done
+"Feeding Schedules for Fish: How Often Should You Feed Your Fish?"
+(You can then recommend specific fish food products you sell.)
 
-How to Maintain Water Quality in an Aquarium - done
+"Controlling Algae Growth Naturally Without Expensive Filters"
+(Good for eco-minded customers — suggest products like barley straw, UV clarifiers, etc.)
 
-Best Aquarium Heaters for Tropical Fish - done
+🌿 Local Relevance (SEO boost for Jamaica and Caribbean)
+"Fish Farming in Jamaica: How to Get Started and What Equipment You Need"
+(This would rank well locally and link back to your shop!)
 
-DIY vs. Store-Bought Fish Tank Stands: Which is Better? - done
+"The Best Fish for Small-Scale Aquaculture in Jamaica"
+(Mention Tilapia, Koi, Goldfish — and link food or pond gear.)
 
-Common Fish Diseases and How to Treat Them - done
+⚙️ Tips and Tricks
+"5 Mistakes to Avoid When Building a DIY Fish Pond"
+(Common pitfalls — then recommend better equipment.)
+
+"How to Keep Your Pond Water Crystal Clear All Year Round"
+(Tips + recommend your filtration/aeration products.)
+
