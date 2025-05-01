@@ -22,16 +22,19 @@ description: Welcome to the home of Adassa Store where you can find a product or
     <div class="recent-articles">
         <h1>
             Recent Articles
-        </h1>   
-        <ul class="recent-posts">
-        {% for post in site.posts limit:4 %}
-            <li>
-                <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-                <em>Posted on {{ post.date | date_to_string }}</em>
-                <p>{{ post.description }}</p>
-            </li>
+        </h1>  
+        {% for post in site.posts limit:3 %}
+            <p>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </p>
+            <p id="post-date">
+                Posted on {{ post.date | date_to_string }}
+            </p>
+            <p>
+                {{ post.description }}
+            </p>
+            <hr/>
         {% endfor %}
-    </ul>
     </div>
 </section>
 
