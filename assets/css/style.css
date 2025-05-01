@@ -638,14 +638,14 @@ html {
 }
 
 .hero {
-    text-align: center;
+    text-align: left;
     padding-left: 75px;
     padding-right: 75px;
 }
 
 .hero h1 {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: darkgray;
 }
 
@@ -656,14 +656,14 @@ html {
 }
 
 .recent-articles {
-    text-align: center;
+    text-align: left;
     padding-left: 75px;
     padding-right: 75px;
 }
 
 .recent-articles h1 {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: darkgray;
     margin-top: 50px;
 }
@@ -686,7 +686,7 @@ html {
 
 .featured-products h1 {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: darkgray;
     margin-top: 50px;
 }
