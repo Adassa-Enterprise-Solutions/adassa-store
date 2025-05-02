@@ -1,267 +1,267 @@
 ## Products.
 ---
 - name: Fish Flakes
-  categories: Fish Food
+  categories: [Fish Food]
   description: Tropical fish food.
   link: https://amzn.to/3Ra0WSz
   image: https://m.media-amazon.com/images/I/81EVejKP2RL._AC_SX679_.jpg
 - name: Fish Pellets
-  categories: Fish Food
+  categories: [Fish Food]
   description: Tropical fish food.
   link: https://s.click.aliexpress.com/e/_ooCFxlt
   image: https://ae-pic-a1.aliexpress-media.com/kf/S0bb4529f55da454c87ae52be300d6733x.jpg
 - name: Above Ground Fish Pond
-  categories: Fish Pond
+  categories: [Fish Pond]
   description: PVC KOI Aquarium Tank, Temporary Fish Tank with Clear Viewing Panel
   link: https://amzn.to/3FXGmlZ
   image: https://m.media-amazon.com/images/I/61T9DCC6-2L._AC_SX679_.jpg 
 - name: Canister Filter System
-  categories: Fish Pond Filter
+  categories: [Filter]
   description: Fish pond canister filter system.
   link: https://s.click.aliexpress.com/e/_m0hI73q
   image: https://ae-pic-a1.aliexpress-media.com/kf/S272f88dcc65d44f0b903b0cd14752932N.jpg 
 - name: GloFish 20 Gallon Aquarium Kit
-  categories: Aquarium
+  categories: [Aquarium]
   description: GloFish 20 Gallon Aquarium Kit with LED Lights, Decor Heater and Filter.
   link: https://amzn.to/3E4GjEl
   image: https://m.media-amazon.com/images/I/91K1idgg+LL._AC_SX679_.jpg   
 - name: Tetra Whisper Internal Filter
-  categories: Aquarium
+  categories: [Filter]
   description: Tetra Whisper Internal Filter 20 To 40 Gallons, For Aquariums, In-Tank Filtration With Air Pump
   link: https://amzn.to/41WwiSL
   image: https://m.media-amazon.com/images/I/81W+Z3JdNIL._AC_SX679_.jpg
 - name: Seachem Prime Fresh and Saltwater Conditioner
-  categories: Aquarium
+  categories: [Aquarium]
   description: Seachem Prime Fresh and Saltwater Conditioner - Chemical Remover and Detoxifier 500 ml
   link: https://amzn.to/4leTGCt
   image: https://m.media-amazon.com/images/I/71k+2wVR8RL._AC_SY879_.jpg
 - name: Tetra Whisper Power Filter
-  categories: Aquarium
+  categories: [Filter]
   description: Tetra Whisper Power Filter 10 Gallons, Quiet 3-Stage aquarium Filtration
   link: https://amzn.to/4lkjxZL
   image: https://m.media-amazon.com/images/I/81K5MARr-bL._AC_SX679_.jpg 
 - name: Aqueon QuietFlow E Internal Power Filter
-  categories: Aquarium
+  categories: [Filter]
   description: Aqueon QuietFlow E Internal Power Filter Extra Small - 3 Gallon
   link: https://amzn.to/42liK2i
   image: https://m.media-amazon.com/images/I/81Z6a522m3L._AC_SX679_.jpg  
 - name: Marina Power Filter
-  categories: Aquarium
+  categories: [Filter]
   description: Marina S10 Power Filter, up to 10 gallons
   link: https://amzn.to/3EgmOst
   image: https://m.media-amazon.com/images/I/61i3Tz5ytJL.__AC_SX300_SY300_QL70_FMwebp_.jpg
 - name: AquaClear 50 Power Filter
-  categories: Aquarium
+  categories: [Filter]
   description: AquaClear 50 Power Filter, Fish Tank Filter for 20- to 50-Gallon Aquariums
   link: https://amzn.to/42mtcXf
   image: https://m.media-amazon.com/images/I/716aZe04xtL._AC_SX679_.jpg
 - name: Fluval 407 Performance Canister Filter
-  categories: Aquarium
+  categories: [Filter]
   description: Fluval 407 Perfomance Canister Filter - for Aquariums Up to 100 Gallons - Aquarium Canister Filter
   link: https://amzn.to/4j8iBXc
   image: https://m.media-amazon.com/images/I/61qgj+pcO4L._AC_SX679_.jpg
 - name: Penn-Plax Cascade 1200 Canister Filter
-  categories: Aquarium
+  categories: [Filter]
   description: Penn-Plax Cascade All-in-One Aquarium Canister Filter – for Tanks Up to 150 Gallons (315 GPH) – Cascade 1200
   link: https://amzn.to/4i4ZJa4 
   image: https://m.media-amazon.com/images/I/71bj2qzO7vL._AC_SY879_.jpg  
 - name: Aqueon Aquarium Starter Kit
-  categories: Aquarium
+  categories: [Aquarium]
   description: Aqueon Aquarium Fish Tank Starter Kit with LED Lighting 10 Gallon Fish Tank
   link: https://amzn.to/3RawWWD 
   image: https://m.media-amazon.com/images/I/91JVQH2dlfL._AC_SX679_.jpg  
 - name: Aquaneat Aquarium Bio Sponge Filter
-  categories: Aquarium
+  categories: [Filter]
   description: AQUANEAT Aquarium Bio Sponge Filter Breeding Fry Betta Shrimp Nano Fish Tank (Large up to 60Gal) 
   link: https://amzn.to/4ievzkN 
   image: https://m.media-amazon.com/images/I/71gH8e7oVyL._AC_SX679_.jpg
 - name: SunGrow Indian Almond Leaves
-  categories: Aquarium
+  categories: [Aquarium]
   description: SunGrow 50 pcs Catappa Indian Almond Leaves for Betta Fish Tank Aquarium, 2” Water Conditioner Leaves, Leaf Also Suitable for Shrimp, Goldfish, Guppy and Frogs 
   link: https://amzn.to/4jaIgP2 
   image: https://m.media-amazon.com/images/I/71Gw6Hb6MWL._AC_SX679_.jpg
 - name: Marina EZ Care Betta Kit
-  categories: Aquarium
+  categories: [Aquarium]
   description: Marina EZ Care Betta Kit, White 
   link: https://amzn.to/3RbbGA0
   image: https://m.media-amazon.com/images/I/61K3kgrHbhL._AC_SX679_.jpg  
 - name: API AQUARIUM START UP PACK Water Conditioner
-  categories: Aquarium
+  categories: [Fish Care]
   description: API AQUARIUM START UP PACK Water Conditioner 1.25-Ounce Bottle 2-Pack 
   link: https://amzn.to/42r7LnO 
   image: https://m.media-amazon.com/images/I/81GEjUzJJlL._AC_SX679_.jpg  
 - name: Seachem Fluorite Black Sand Substrate
-  categories: Aquarium
+  categories: [Aquarium]
   description: Seachem Fluorite Black Sand Substrate, 7.7lb 
   link: https://amzn.to/4j5b0sr
   image: https://m.media-amazon.com/images/I/61lr-mv3B5L._AC_SY879_.jpg  
 - name: TetraColor PLUS Tropical Flakes
-  categories: Aquarium
+  categories: [Aquarium]
   description: TetraColor PLUS Tropical Flakes with Color Enhancing 2.2 Ounce 
   link: https://amzn.to/43P2oRL
   image: https://m.media-amazon.com/images/I/71q2I9Pu0AL._AC_SX679_.jpg    
 - name: Aqueon Adjustable PRO Aquarium Heater
-  categories: Aquarium
+  categories: [Aquarium]
   description: Aqueon Adjustable PRO Aquarium Heater Up to 20 Gallons, 50 Watts
   link: https://amzn.to/4iieypZ 
   image: https://m.media-amazon.com/images/I/81HF7kN6pvL._AC_SX679_.jpg
 - name: Aqueon Plant and Shrimp Aquarium Substrate
-  categories: Aquarium
+  categories: [Aquarium]
   description: Aqueon Plant and Shrimp Aquarium Substrate 5 Pounds,Brown
   link: https://amzn.to/4lsvi0q 
   image: https://m.media-amazon.com/images/I/81ZHxy6m8US._AC_SX679_.jpg  
 - name: Aqueon QuietFlow Internal Filter
-  categories: Aquarium
+  categories: [Filter]
   description: Aqueon QuietFlow Internal Filter with SmartClean Technology, Extra Small
   link: https://amzn.to/4j6yb5x 
   image: https://m.media-amazon.com/images/I/71Gb9kvmHPL._AC_SX679_.jpg
 - name: Tetra Whisper Air Pump
-  categories: Aquarium
+  categories: [Aquarium]
   description: Tetra Whisper Easy to Use Air Pump for Aquariums
   link: https://amzn.to/44lSl6V 
   image: https://m.media-amazon.com/images/I/91AxwZ6ke4L._AC_SX679_.jpg
 - name: NICREW SkyLED Plus Aquarium Plant Light
-  categories: Aquarium
+  categories: [Aquarium]
   description: NICREW SkyLED Plus Aquarium Plant Light, Freshwater Fish Tank Light with Ramp Up and Dim Down, Spectrum Adjustable and Lighting Schedule Programmable with Controller
   link: https://amzn.to/3RKVwgT 
   image: https://m.media-amazon.com/images/I/61SW7CLZCML._AC_SX679_.jpg  
 - name: 1.3 L Aquarium CO2 System Generator
-  categories: Aquarium
+  categories: [Aquarium]
   description: 1.3 L Aquarium CO2 System Generator with Regulator Solenoid Valve for Aquarium Plants (G600SMini)
   link: https://amzn.to/4jz30zz 
   image: https://m.media-amazon.com/images/I/61pV75RSbrL._AC_SX679_.jpg
 - name: Fluval Aquarium Planting Stratum 8.8lb and Plant Grow Bundle
-  categories: Aquarium
+  categories: [Aquarium]
   description: Fluval Aquarium Planting Stratum 8.8lb and Plant Grow Bundle
   link: https://amzn.to/4jjG4o4  
   image: https://m.media-amazon.com/images/I/51Uxr0U3BFL._AC_.jpg
 - name: EHEIM Jager Aquarium Thermostat Heater
-  categories: Aquarium
+  categories: [Aquarium]
   description: EHEIM Jager Aquarium Thermostat Heater 100W ( Pack of 1)
   link: https://amzn.to/44nfdmw   
   image: https://m.media-amazon.com/images/I/41-NtIUAmeL._AC_SX679_.jpg 
 - name: Seachem Flourish Plant Growth Supplement
-  categories: Aquarium
+  categories: [Aquarium]
   description: Seachem Flourish Plant Growth Supplement Bundle for Aquariums 
   link: https://amzn.to/3EjUXrx   
   image: https://m.media-amazon.com/images/I/513vKwnBDvL._AC_SX679_.jpg  
 - name: API Co2 Booster 16 oz and Root Tabs
-  categories: Aquarium
+  categories: [Aquarium]
   description: API Co2 Booster 16 oz and Root Tabs 0.4 oz Plant Fertilizers Freshwater Aquarium Treatment 
   link: https://amzn.to/4cAHIPF    
   image: https://m.media-amazon.com/images/I/518kMBD5y3L._AC_SX679_.jpg   
 - name: hygger 6-in-1 Long Aquarium Aquascaping Tools Kit 
-  categories: Aquarium
+  categories: [Aquarium]
   description: hygger 6-in-1 Long Aquarium Aquascaping Tools Kit, Color Stainless Steel Premium Aquatic Plant Tweezers Scissors Spatula Kit Comes with 1 Tool Holder and 1 Cleaning Cloth, for Fish Tank Starters 
   link: https://amzn.to/4jdMgyf    
   image: https://m.media-amazon.com/images/I/61N8yZMYxuL._AC_SX679_.jpg
 - name: API FRESHWATER MASTER TEST KIT 
-  categories: Aquarium
+  categories: [Fish Care]
   description: API FRESHWATER MASTER TEST KIT 800-Test Freshwater Aquarium Water Master Test Kit, White, Single, Multi-colored 
   link: https://amzn.to/3GaO3Fw    
   image: https://m.media-amazon.com/images/I/61Kd-mEEjXL._AC_SX679_.jpg 
 - name: Python No Spill Clean and Fill Aquarium Maintenance System 
-  categories: Aquarium
+  categories: [Fish Care]
   description: Python No Spill Clean and Fill Aquarium Maintenance System, Gravel Cleaner and Water Changer, 50 Foot 
   link: https://amzn.to/3Y41m0E    
   image: https://m.media-amazon.com/images/I/71fq93USkmL._AC_SX679_.jpg  
 - name: Aqueon Aquarium Fish Tank Water Changer 
-  categories: Aquarium
+  categories: [Fish Care]
   description: Aqueon Aquarium Fish Tank Water Changer With 25 Foot Hose 
   link: https://amzn.to/3YBudcG    
   image: https://m.media-amazon.com/images/I/81dTuT-LP9L._AC_SX679_.jpg
 - name: Tetra AquaSafe Plus
-  categories: Aquarium
+  categories: [Fish Care]
   description: Tetra AquaSafe Plus, Aquarium Water Conditioner And Dechlorinator, 33.8 Ounces 
   link: https://amzn.to/4cGnAfe    
   image: https://m.media-amazon.com/images/I/71Fju44Cr6L._AC_SX679_.jpg 
 - name: API ALGAEFIX
-  categories: Aquarium
+  categories: [Fish Care]
   description: API ALGAEFIX 8-Ounce Bottle 
   link: https://amzn.to/4iutmBZ    
   image: https://m.media-amazon.com/images/I/71L7KDykKHL._AC_SX679_.jpg
 - name: Float Glass Aquarium Cleaner
-  categories: Aquarium
+  categories: [Fish Care]
   description: Gulfstream Tropical AGU030SM Mag-Float Glass Aquarium Cleaner, Small 
   link: https://amzn.to/4jls51l    
   image: https://m.media-amazon.com/images/I/61zD9TVlgwL._AC_SY879_.jpg 
 - name: Fluval E 300 Watt Electronic Heater
-  categories: Aquarium
+  categories: [Aquarium]
   description: Fluval E 300 Watt Electronic Heater 
   link: https://amzn.to/42yoC8h    
   image: https://m.media-amazon.com/images/I/61AOPqZZuxL._AC_SX679_.jpg
 - name: AQQA Aquarium Heater 500W Heater
-  categories: Aquarium
+  categories: [Aquarium]
   description: AQQA Aquarium Heater 500W Heater for Fish Tank 53-130 Gal PTC Submersible Heater with External Digital Controller Adjustable Temp Range 59-94℉ Over-Temperature Protection (500W for 53-130Gal) 
   link: https://amzn.to/3EFJ3Z5     
   image: https://m.media-amazon.com/images/I/61yK5ozsTjL._AC_SX679_.jpg
 - name: hygger 200W Titanium Aquarium Heater
-  categories: Aquarium
+  categories: [Aquarium]
   description: hygger 200W Titanium Aquarium Heater for Salt Water and Fresh Water, Digital Submersible Heater with External IC Thermostat Controller and Thermometer, for Fish Tank 20-45 Gallon 
   link: https://amzn.to/4ji7YB0     
   image: https://m.media-amazon.com/images/I/61U77C224EL._AC_SX679_.jpg
 - name: Tetra HT Submersible Aquarium Heater
-  categories: Aquarium
+  categories: [Aquarium]
   description: Tetra HT Submersible Aquarium Heater With Electronic Thermostat, 50-Watt, 2-10 Gallon 
   link: https://amzn.to/44GPjdE     
   image: https://m.media-amazon.com/images/I/71CH35bZjVL._AC_SX679_.jpg
 - name: 20-29-37 Gallon Fish Tank Stand
-  categories: Aquarium
+  categories: [Aquarium]
   description: 20-29-37 Gallon Fish Tank Stand with Power Outlet Shelves, 30x13 Metal Aquarium Stand for Reptile Tanks, 3-Tier Storage Rack, 400LBS Heavy Duty Capacity, Rustic Brown 
   link: https://amzn.to/4cT4cfe     
   image: https://m.media-amazon.com/images/I/711zi0y+I2L._AC_SX679_.jpg 
 - name: Ollie & Hutch Flipper 10/20 Gallon Aquarium Stand
-  categories: Aquarium
+  categories: [Aquarium]
   description: Ollie & Hutch Flipper 10/20 Gallon Aquarium Stand, Rustic Oak 
   link: https://amzn.to/42NneyY     
   image: https://m.media-amazon.com/images/I/812S--czaiL._AC_SX679_.jpg
 - name: VOWNER 40-50 Gallon Fish Tank Stand 
-  categories: Aquarium
+  categories: [Aquarium]
   description: VOWNER 40-50 Gallon Fish Tank Stand - Metal Aquarium Stand, 36.6" x 18.5" x 29.5" Heavy Duty Reptile Tank Stand, Adjustable 2-Tier Fish Tank Rack Shelf for Home Office, Tank not Included, Black 
   link: https://amzn.to/3YbO0zt     
   image: https://m.media-amazon.com/images/I/71qbkCJYx-L._AC_SX679_.jpg  
 - name: API Liquid Super ICK Cure Fish Remedy 
-  categories: Aquarium
+  categories: [Fish Care]
   description: API Liquid Super ICK Cure Fish Remedy, Freshwater and Saltwater Fish Medication (Pack of 1) and API Aquarium Salt Freshwater Aquarium Salt 33-Ounce Box 
   link: https://amzn.to/3RVmiUd     
   image: https://m.media-amazon.com/images/I/61-7QZgYIAL._AC_SX679_.jpg  
 - name: API Melafix Antibacterial Fish Remedy 
-  categories: Aquarium
+  categories: [Fish Care]
   description: API Melafix Antibacterial Fish Remedy 16-Ounce Bottles 
   link: https://amzn.to/4iAP6MC      
   image: https://m.media-amazon.com/images/I/81B3ywhnByL._AC_SY879_.jpg  
 - name: EHEIM Everyday Fish Feeder 
-  categories: Aquarium
+  categories: [Fish Care]
   description: EHEIM Everyday Fish Feeder Programmable Automatic Food Dispenser 
   link: https://amzn.to/430PTlb      
   image: https://m.media-amazon.com/images/I/61Ft5ukvC-L._AC_SX679_.jpg
 - name: Seachem Cupramine 
-  categories: Aquarium
+  categories: [Fish Care]
   description: Seachem Cupramine Copper 100ml 
   link: https://amzn.to/42wVkZ6      
   image: https://m.media-amazon.com/images/I/51-mWazakHL._AC_SX679_.jpg
 - name: Seachem Kanaplex 
-  categories: Aquarium
+  categories: [Fish Care]
   description: Seachem Kanaplex (Pack of 2) 
   link: https://amzn.to/44hOech      
   image: https://m.media-amazon.com/images/I/71yzZQH9-xL._AC_SY879_.jpg
 - name: API PIMAFIX Antifungal 
-  categories: Aquarium
+  categories: [Fish Care]
   description: API PIMAFIX Antifungal Freshwater and Saltwater Fish Remedy 16-Ounce Bottle
   link: https://amzn.to/3EzVuWp       
   image: https://m.media-amazon.com/images/I/71edNyXlQKL._AC_SX679_.jpg
 - name: TetraPond Koi Vibrance 
-  categories: Fish Food
+  categories: [Fish Food]
   description: TetraPond Koi Vibrance, Soft Sticks, Easy to Digest Floating Pond Food, 8.27 lbs
   link: https://amzn.to/4junj1j        
   image: https://m.media-amazon.com/images/I/81qDAe0FeDL._AC_SX679_.jpg
 - name: Hikari 69653 Cichlid Gold
-  categories: Fish Food
+  categories: [Fish Food]
   description: Hikari 69653 Cichlid Gold, Large Pellets, 22 lb
   link: https://amzn.to/3RCHdex        
   image: https://m.media-amazon.com/images/I/61hpAAkZ0jL._AC_SX679_.jpg   
 - name: Omega One Super Color Flakes
-  categories: Fish Food
+  categories: [Fish Food]
   description: Omega One Super Color Flakes 2.2 oz
   link: https://amzn.to/42Yqmbn        
   image: https://m.media-amazon.com/images/I/71meL5hvvAL._AC_SX679_.jpg  

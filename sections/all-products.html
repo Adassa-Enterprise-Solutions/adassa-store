@@ -1,0 +1,120 @@
+---
+layout: home-layout
+title: Shop All Products | Personal & Business Essentials – Adassa Store
+description: Explore our full range of quality products for personal use, pet care, business needs, and more. Find everything you need in one place at Adassa Store.
+---
+
+<section id="featured-products">
+    <div class="centred">
+        <h1 class="mt-5" style="font-weight: bold;font-size: xx-large;color: darkgray;">
+            Our Products
+        </h1> 
+    </div>
+
+    <!-- Category filter checkboxes and clear button -->
+    <div class="container my-4" style="font-size: 1.2rem;">
+        <div class="row align-items-center">
+            <div class="col-md-2 font-weight-bold">
+                Filter by Category:
+            </div>
+            <div class="col-md-10">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input category-filter" type="checkbox" id="filterFishCare" value="Fish Care">
+                    <label class="form-check-label" for="filterFishCare">Fish Care</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input category-filter" type="checkbox" id="filterFishFood" value="Fish Food">
+                    <label class="form-check-label" for="filterFishFood">Fish Food</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input category-filter" type="checkbox" id="filterPetSupplies" value="Filter">
+                    <label class="form-check-label" for="filterPetSupplies">Filters</label>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <button id="clear-filters" class="btn btn-secondary btn-sm">
+                        Clear Filters
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="products" id="product-list">
+        {% for product in site.data.products %}
+        <div class="centred product-card" data-category="{{ product.categories }}">
+            <h2 class="title">
+                <a href="{{ product.link }}">{{ product.name }}</a>
+            </h2>
+            <a href="{{ product.link }}">
+                <img class="img-fluid mb-3 post-feature-image" 
+                     alt="{{ product.name }}"
+                     src="{{ product.image }}">
+            </a>
+            <a href="{{ product.link }}" class="btn">Buy now</a>
+        </div>
+        {% endfor %}
+    </div>
+
+</section>
+
+<script>
+    const checkboxes = document.querySelectorAll('.category-filter');
+    const clearButton = document.getElementById('clear-filters');
+
+    // Load saved filters from localStorage
+    document.addEventListener('DOMContentLoaded', () => {
+        const savedCategories = JSON.parse(localStorage.getItem('selectedCategories')) || [];
+        checkboxes.forEach(cb => {
+            if (savedCategories.includes(cb.value)) {
+                cb.checked = true;
+            }
+        });
+        filterProducts();
+    });
+
+    // Save filter state on change
+    checkboxes.forEach(cb => {
+        cb.addEventListener('change', () => {
+            saveFilters();
+            filterProducts();
+        });
+    });
+
+    clearButton.addEventListener('click', () => {
+        checkboxes.forEach(cb => cb.checked = false);
+        saveFilters();
+        filterProducts();
+    });
+
+    function saveFilters() {
+        const selectedCategories = Array.from(checkboxes)
+                .filter(cb => cb.checked)
+                .map(cb => cb.value);
+        localStorage.setItem('selectedCategories', JSON.stringify(selectedCategories));
+    }
+
+    function filterProducts() {
+        const selectedCategories = Array.from(checkboxes)
+                .filter(cb => cb.checked)
+                .map(cb => cb.value);
+
+        const products = document.querySelectorAll('.product-card');
+
+        products.forEach(product => {
+            const category = product.getAttribute('data-category');
+            if (selectedCategories.length === 0 || selectedCategories.includes(category)) {
+                product.style.display = 'block';
+            } else {
+                product.style.display = 'none';
+            }
+        });
+    }
+</script>
+
+
+
+

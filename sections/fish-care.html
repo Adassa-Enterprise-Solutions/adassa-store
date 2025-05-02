@@ -1,19 +1,19 @@
 ---
 layout: home-layout
-title: Filtration | Tips, Products & Guides for Healthy Aquarium Fish – Adassa Store
-description: Discover expert filtration tips, top-rated products, and step-by-step guides to keep your water in top condition. Shop now at Adassa Store.
+title: Fish Care | Tips, Products & Guides for Healthy Fish – Adassa Store
+description: Discover expert fish care tips, top-rated products, and step-by-step guides to keep your fish healthy and thriving. Shop now at Adassa Store.
 ---
 
 <section id="featured-products">
     <div class="centred">
         <h1 class="mt-5" 
             style="font-weight: bold;font-size: xx-large;color: darkgray;">
-            Aquarium & Pond Filtration
+            Fish Care
         </h1> 
     </div>
     <div class="products">
         {% for product in site.data.products %}
-            {% if product.name contains 'Filter' %}
+            {% if product.categories contains 'Fish Food' or product.categories contains 'Fish Care' %}
                 <div class="centred">
 
                     <h2 class="title">

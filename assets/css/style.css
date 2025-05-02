@@ -639,6 +639,7 @@ html {
 
 .hero {
     text-align: left;
+    padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -689,4 +690,29 @@ html {
     font-size: 2.5rem;
     color: darkgray;
     margin-top: 50px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.carousel-slides {
+  display: flex;
+  width: 300%;
+  animation: slide 12s infinite;
+}
+
+.carousel-slides img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  33%  { transform: translateX(-100%); }
+  66%  { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
 }
