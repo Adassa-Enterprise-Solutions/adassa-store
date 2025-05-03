@@ -1,4 +1,4 @@
-Sample prompt:
+Sample prompt for posts:
 
 Write the "Best Fish Flakes and Pellets for Tropical Fish Farming in Jamaica" blog post that can 
 be copied as a markdown document for use in a Jekyll blog. Also, optimize 
@@ -7,40 +7,3 @@ Where possible reference the existing products and posts on the site at https://
 Include the front matter: "author: Desmond Bennett", 
 "layout: post-layout", img: blog-image.jpg, img-alt: Blog Image, 
 and thumb: blog-image.jpg.
-
-Quick Article Ideas for Your Store Blog:
-
-🛠 Product Guides
-"Best Fish Flakes and Pellets for Tropical Fish Farming in Jamaica"
-(Target affiliate products you sell — you can recommend your linked products naturally.)
-
-"Choosing the Right Pond Aerator for Small and Medium-Scale Fish Farms"
-(Explain why aeration matters, then link to your aerators or filters.)
-
-"Top 5 Pond Filters for Clearer Water and Healthier Fish"
-(Mini-reviews of different filters you list or link to.)
-
-📚 How-To / Educational Posts
-"How to Set Up a Backyard Fish Pond in 7 Easy Steps"
-(Basic DIY pond setup — perfect to sell pond liners, pumps, filters, etc.)
-
-"Feeding Schedules for Fish: How Often Should You Feed Your Fish?"
-(You can then recommend specific fish food products you sell.)
-
-"Controlling Algae Growth Naturally Without Expensive Filters"
-(Good for eco-minded customers — suggest products like barley straw, UV clarifiers, etc.)
-
-🌿 Local Relevance (SEO boost for Jamaica and Caribbean)
-"Fish Farming in Jamaica: How to Get Started and What Equipment You Need"
-(This would rank well locally and link back to your shop!)
-
-"The Best Fish for Small-Scale Aquaculture in Jamaica"
-(Mention Tilapia, Koi, Goldfish — and link food or pond gear.)
-
-⚙️ Tips and Tricks
-"5 Mistakes to Avoid When Building a DIY Fish Pond"
-(Common pitfalls — then recommend better equipment.)
-
-"How to Keep Your Pond Water Crystal Clear All Year Round"
-(Tips + recommend your filtration/aeration products.)
-
