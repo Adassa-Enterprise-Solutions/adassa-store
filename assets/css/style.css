@@ -376,6 +376,7 @@ header .logo p {
     gap: 0.5rem;
     justify-content: center;
     flex-wrap: wrap;
+    width: 95% !important;
 }
 
 

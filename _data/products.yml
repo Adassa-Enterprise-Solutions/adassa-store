@@ -7,13 +7,6 @@
   order: https://amzn.to/3Ra0WSz
   detail: https://amzn.to/3Ra0WSz
   image: https://m.media-amazon.com/images/I/81EVejKP2RL._AC_SX679_.jpg
-- name: Fish Pellets
-  categories: [Fish Food]
-  description: Tropical fish food.
-  link: https://s.click.aliexpress.com/e/_ooCFxlt
-  order: https://s.click.aliexpress.com/e/_ooCFxlt
-  detail: https://s.click.aliexpress.com/e/_ooCFxlt
-  image: https://ae-pic-a1.aliexpress-media.com/kf/S0bb4529f55da454c87ae52be300d6733x.jpg
 - name: Above Ground Fish Pond
   categories: [Fish Pond]
   description: PVC KOI Aquarium Tank, Temporary Fish Tank with Clear Viewing Panel
@@ -21,13 +14,6 @@
   order: https://amzn.to/3FXGmlZ
   detail: https://amzn.to/3FXGmlZ
   image: https://m.media-amazon.com/images/I/61T9DCC6-2L._AC_SX679_.jpg 
-- name: Canister Filter System
-  categories: [Filter]
-  description: Fish pond canister filter system.
-  link: https://s.click.aliexpress.com/e/_m0hI73q
-  order: https://s.click.aliexpress.com/e/_m0hI73q
-  detail: https://s.click.aliexpress.com/e/_m0hI73q
-  image: https://ae-pic-a1.aliexpress-media.com/kf/S272f88dcc65d44f0b903b0cd14752932N.jpg 
 - name: GloFish 20 Gallon Aquarium Kit
   categories: [Aquarium]
   description: GloFish 20 Gallon Aquarium Kit with LED Lights, Decor Heater and Filter.
@@ -93,11 +79,15 @@
   categories: [Aquarium]
   description: Aqueon Aquarium Fish Tank Starter Kit with LED Lighting 10 Gallon Fish Tank
   link: https://amzn.to/3RawWWD 
+  order: https://amzn.to/3RawWWD
+  detail: https://amzn.to/3RawWWD
   image: https://m.media-amazon.com/images/I/91JVQH2dlfL._AC_SX679_.jpg  
 - name: Aquaneat Aquarium Bio Sponge Filter
   categories: [Filter]
   description: AQUANEAT Aquarium Bio Sponge Filter Breeding Fry Betta Shrimp Nano Fish Tank (Large up to 60Gal) 
   link: https://amzn.to/4ievzkN 
+  order: https://amzn.to/4ievzkN
+  detail: https://amzn.to/4ievzkN
   image: https://m.media-amazon.com/images/I/71gH8e7oVyL._AC_SX679_.jpg
 - name: SunGrow Indian Almond Leaves
   categories: [Aquarium]
@@ -289,3 +279,31 @@
   description: Omega One Super Color Flakes 2.2 oz
   link: https://amzn.to/42Yqmbn        
   image: https://m.media-amazon.com/images/I/71meL5hvvAL._AC_SX679_.jpg  
+- name: Red Swordtail
+  categories: [Ornamental Fish]
+  description: Red swordtail ornamental fresh water fish for aquariums and ponds.  
+  link: 
+  order: 
+  detail: 
+  image: /assets/media/products/fish/swordtail/media/red_male_swordtail.jpg
+- name: Swagtail Swordtail
+  categories: [Ornamental Fish]
+  description: Swagtail swordtail ornamental fresh water fish for aquariums and ponds.  
+  link: 
+  order: 
+  detail: 
+  image: /assets/media/products/fish/swordtail/media/swagtail_swordtail.jpg 
+- name: Calico Swordtail
+  categories: [Ornamental Fish]
+  description: Calico swordtail ornamental fresh water fish for aquariums and ponds.  
+  link: 
+  order: 
+  detail: 
+  image: /assets/media/products/fish/swordtail/media/calico_swordtail.jpg  
+- name: Koi Swordtail
+  categories: [Ornamental Fish]
+  description: Koi_swordtail ornamental fresh water fish for aquariums and ponds.  
+  link: 
+  order: 
+  detail: 
+  image: /assets/media/products/fish/swordtail/media/koi_swordtail.jpg  

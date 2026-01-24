@@ -20,6 +20,10 @@ last_modified_at: 2025-05-03
             </div>
             <div class="col-md-10">
                 <div class="form-check form-check-inline">
+                    <input class="form-check-input category-filter" type="checkbox" id="filterFish" value="Ornamental Fish">
+                    <label class="form-check-label" for="filterFish">Fish</label>
+                </div>
+                <div class="form-check form-check-inline">
                     <input class="form-check-input category-filter" type="checkbox" id="filterFishCare" value="Fish Care">
                     <label class="form-check-label" for="filterFishCare">Fish Care</label>
                 </div>
@@ -55,7 +59,8 @@ last_modified_at: 2025-05-03
                      alt="{{ product.name }}"
                      src="{{ product.image }}">
             </a>
-            <div class="action">
+            
+            <div class="action centred">
                 <a href="{{ product.link }}" class="btn">Buy</a>
                 <a href="{{ product.order }}" class="btn">Order</a>
                 <a href="{{ product.detail }}" class="btn">Detail</a>
