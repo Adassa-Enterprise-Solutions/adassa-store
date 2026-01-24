@@ -366,6 +366,21 @@ header .logo p {
     margin: 1rem 1rem auto 1rem;
 }
 
+.product-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
 /* Services */
 
 .services {

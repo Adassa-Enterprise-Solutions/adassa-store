@@ -55,7 +55,11 @@ last_modified_at: 2025-05-03
                      alt="{{ product.name }}"
                      src="{{ product.image }}">
             </a>
-            <a href="{{ product.link }}" class="btn">Buy now</a>
+            <div class="action">
+                <a href="{{ product.link }}" class="btn">Buy</a>
+                <a href="{{ product.order }}" class="btn">Order</a>
+                <a href="{{ product.detail }}" class="btn">Detail</a>
+            </div>
         </div>
         {% endfor %}
     </div>

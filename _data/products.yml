@@ -4,56 +4,78 @@
   categories: [Fish Food]
   description: Tropical fish food.
   link: https://amzn.to/3Ra0WSz
+  order: https://amzn.to/3Ra0WSz
+  detail: https://amzn.to/3Ra0WSz
   image: https://m.media-amazon.com/images/I/81EVejKP2RL._AC_SX679_.jpg
 - name: Fish Pellets
   categories: [Fish Food]
   description: Tropical fish food.
   link: https://s.click.aliexpress.com/e/_ooCFxlt
+  order: https://s.click.aliexpress.com/e/_ooCFxlt
+  detail: https://s.click.aliexpress.com/e/_ooCFxlt
   image: https://ae-pic-a1.aliexpress-media.com/kf/S0bb4529f55da454c87ae52be300d6733x.jpg
 - name: Above Ground Fish Pond
   categories: [Fish Pond]
   description: PVC KOI Aquarium Tank, Temporary Fish Tank with Clear Viewing Panel
   link: https://amzn.to/3FXGmlZ
+  order: https://amzn.to/3FXGmlZ
+  detail: https://amzn.to/3FXGmlZ
   image: https://m.media-amazon.com/images/I/61T9DCC6-2L._AC_SX679_.jpg 
 - name: Canister Filter System
   categories: [Filter]
   description: Fish pond canister filter system.
   link: https://s.click.aliexpress.com/e/_m0hI73q
+  order: https://s.click.aliexpress.com/e/_m0hI73q
+  detail: https://s.click.aliexpress.com/e/_m0hI73q
   image: https://ae-pic-a1.aliexpress-media.com/kf/S272f88dcc65d44f0b903b0cd14752932N.jpg 
 - name: GloFish 20 Gallon Aquarium Kit
   categories: [Aquarium]
   description: GloFish 20 Gallon Aquarium Kit with LED Lights, Decor Heater and Filter.
   link: https://amzn.to/3E4GjEl
+  order: https://amzn.to/3E4GjEl
+  detail: https://amzn.to/3E4GjEl
   image: https://m.media-amazon.com/images/I/91K1idgg+LL._AC_SX679_.jpg   
 - name: Tetra Whisper Internal Filter
   categories: [Filter]
   description: Tetra Whisper Internal Filter 20 To 40 Gallons, For Aquariums, In-Tank Filtration With Air Pump
   link: https://amzn.to/41WwiSL
+  order: https://amzn.to/41WwiSL
+  detail: https://amzn.to/41WwiSL
   image: https://m.media-amazon.com/images/I/81W+Z3JdNIL._AC_SX679_.jpg
 - name: Seachem Prime Fresh and Saltwater Conditioner
   categories: [Aquarium]
   description: Seachem Prime Fresh and Saltwater Conditioner - Chemical Remover and Detoxifier 500 ml
   link: https://amzn.to/4leTGCt
+  order: https://amzn.to/4leTGCt
+  detail: https://amzn.to/4leTGCt
   image: https://m.media-amazon.com/images/I/71k+2wVR8RL._AC_SY879_.jpg
 - name: Tetra Whisper Power Filter
   categories: [Filter]
   description: Tetra Whisper Power Filter 10 Gallons, Quiet 3-Stage aquarium Filtration
   link: https://amzn.to/4lkjxZL
+  order: https://amzn.to/4lkjxZL
+  detail: https://amzn.to/4lkjxZL
   image: https://m.media-amazon.com/images/I/81K5MARr-bL._AC_SX679_.jpg 
 - name: Aqueon QuietFlow E Internal Power Filter
   categories: [Filter]
   description: Aqueon QuietFlow E Internal Power Filter Extra Small - 3 Gallon
   link: https://amzn.to/42liK2i
+  order: https://amzn.to/42liK2i
+  detail: https://amzn.to/42liK2i
   image: https://m.media-amazon.com/images/I/81Z6a522m3L._AC_SX679_.jpg  
 - name: Marina Power Filter
   categories: [Filter]
   description: Marina S10 Power Filter, up to 10 gallons
   link: https://amzn.to/3EgmOst
+  order: https://amzn.to/3EgmOst
+  detail: https://amzn.to/3EgmOst
   image: https://m.media-amazon.com/images/I/61i3Tz5ytJL.__AC_SX300_SY300_QL70_FMwebp_.jpg
 - name: AquaClear 50 Power Filter
   categories: [Filter]
   description: AquaClear 50 Power Filter, Fish Tank Filter for 20- to 50-Gallon Aquariums
   link: https://amzn.to/42mtcXf
+  order: https://amzn.to/42mtcXf
+  detail: https://amzn.to/42mtcXf
   image: https://m.media-amazon.com/images/I/716aZe04xtL._AC_SX679_.jpg
 - name: Fluval 407 Performance Canister Filter
   categories: [Filter]
@@ -64,6 +86,8 @@
   categories: [Filter]
   description: Penn-Plax Cascade All-in-One Aquarium Canister Filter – for Tanks Up to 150 Gallons (315 GPH) – Cascade 1200
   link: https://amzn.to/4i4ZJa4 
+  order: https://amzn.to/4i4ZJa4 
+  detail: https://amzn.to/4i4ZJa4 
   image: https://m.media-amazon.com/images/I/71bj2qzO7vL._AC_SY879_.jpg  
 - name: Aqueon Aquarium Starter Kit
   categories: [Aquarium]
