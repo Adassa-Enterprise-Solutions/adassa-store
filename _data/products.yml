@@ -4,63 +4,54 @@
   categories: [Fish Food]
   description: Tropical fish food.
   link: https://amzn.to/3Ra0WSz
-  order: https://amzn.to/3Ra0WSz
   detail: https://amzn.to/3Ra0WSz
   image: https://m.media-amazon.com/images/I/81EVejKP2RL._AC_SX679_.jpg
 - name: Above Ground Fish Pond
   categories: [Fish Pond]
   description: PVC KOI Aquarium Tank, Temporary Fish Tank with Clear Viewing Panel
   link: https://amzn.to/3FXGmlZ
-  order: https://amzn.to/3FXGmlZ
   detail: https://amzn.to/3FXGmlZ
   image: https://m.media-amazon.com/images/I/61T9DCC6-2L._AC_SX679_.jpg 
 - name: GloFish 20 Gallon Aquarium Kit
   categories: [Aquarium]
   description: GloFish 20 Gallon Aquarium Kit with LED Lights, Decor Heater and Filter.
   link: https://amzn.to/3E4GjEl
-  order: https://amzn.to/3E4GjEl
   detail: https://amzn.to/3E4GjEl
   image: https://m.media-amazon.com/images/I/91K1idgg+LL._AC_SX679_.jpg   
 - name: Tetra Whisper Internal Filter
   categories: [Filter]
   description: Tetra Whisper Internal Filter 20 To 40 Gallons, For Aquariums, In-Tank Filtration With Air Pump
   link: https://amzn.to/41WwiSL
-  order: https://amzn.to/41WwiSL
   detail: https://amzn.to/41WwiSL
   image: https://m.media-amazon.com/images/I/81W+Z3JdNIL._AC_SX679_.jpg
 - name: Seachem Prime Fresh and Saltwater Conditioner
   categories: [Aquarium]
   description: Seachem Prime Fresh and Saltwater Conditioner - Chemical Remover and Detoxifier 500 ml
   link: https://amzn.to/4leTGCt
-  order: https://amzn.to/4leTGCt
   detail: https://amzn.to/4leTGCt
   image: https://m.media-amazon.com/images/I/71k+2wVR8RL._AC_SY879_.jpg
 - name: Tetra Whisper Power Filter
   categories: [Filter]
   description: Tetra Whisper Power Filter 10 Gallons, Quiet 3-Stage aquarium Filtration
   link: https://amzn.to/4lkjxZL
-  order: https://amzn.to/4lkjxZL
   detail: https://amzn.to/4lkjxZL
   image: https://m.media-amazon.com/images/I/81K5MARr-bL._AC_SX679_.jpg 
 - name: Aqueon QuietFlow E Internal Power Filter
   categories: [Filter]
   description: Aqueon QuietFlow E Internal Power Filter Extra Small - 3 Gallon
   link: https://amzn.to/42liK2i
-  order: https://amzn.to/42liK2i
   detail: https://amzn.to/42liK2i
   image: https://m.media-amazon.com/images/I/81Z6a522m3L._AC_SX679_.jpg  
 - name: Marina Power Filter
   categories: [Filter]
   description: Marina S10 Power Filter, up to 10 gallons
   link: https://amzn.to/3EgmOst
-  order: https://amzn.to/3EgmOst
   detail: https://amzn.to/3EgmOst
   image: https://m.media-amazon.com/images/I/61i3Tz5ytJL.__AC_SX300_SY300_QL70_FMwebp_.jpg
 - name: AquaClear 50 Power Filter
   categories: [Filter]
   description: AquaClear 50 Power Filter, Fish Tank Filter for 20- to 50-Gallon Aquariums
   link: https://amzn.to/42mtcXf
-  order: https://amzn.to/42mtcXf
   detail: https://amzn.to/42mtcXf
   image: https://m.media-amazon.com/images/I/716aZe04xtL._AC_SX679_.jpg
 - name: Fluval 407 Performance Canister Filter
@@ -72,21 +63,18 @@
   categories: [Filter]
   description: Penn-Plax Cascade All-in-One Aquarium Canister Filter – for Tanks Up to 150 Gallons (315 GPH) – Cascade 1200
   link: https://amzn.to/4i4ZJa4 
-  order: https://amzn.to/4i4ZJa4 
   detail: https://amzn.to/4i4ZJa4 
   image: https://m.media-amazon.com/images/I/71bj2qzO7vL._AC_SY879_.jpg  
 - name: Aqueon Aquarium Starter Kit
   categories: [Aquarium]
   description: Aqueon Aquarium Fish Tank Starter Kit with LED Lighting 10 Gallon Fish Tank
   link: https://amzn.to/3RawWWD 
-  order: https://amzn.to/3RawWWD
   detail: https://amzn.to/3RawWWD
   image: https://m.media-amazon.com/images/I/91JVQH2dlfL._AC_SX679_.jpg  
 - name: Aquaneat Aquarium Bio Sponge Filter
   categories: [Filter]
   description: AQUANEAT Aquarium Bio Sponge Filter Breeding Fry Betta Shrimp Nano Fish Tank (Large up to 60Gal) 
   link: https://amzn.to/4ievzkN 
-  order: https://amzn.to/4ievzkN
   detail: https://amzn.to/4ievzkN
   image: https://m.media-amazon.com/images/I/71gH8e7oVyL._AC_SX679_.jpg
 - name: SunGrow Indian Almond Leaves
@@ -282,28 +270,24 @@
 - name: Red Swordtail
   categories: [Ornamental Fish]
   description: Red swordtail ornamental fresh water fish for aquariums and ponds.  
-  link: 
-  order: 
-  detail: 
+  stock: 24
+  link: https://buy.stripe.com/28EdR9fC54Bz1RDgsn5kk02
   image: /assets/media/products/fish/swordtail/media/red_male_swordtail.jpg
 - name: Swagtail Swordtail
   categories: [Ornamental Fish]
   description: Swagtail swordtail ornamental fresh water fish for aquariums and ponds.  
-  link: 
-  order: 
-  detail: 
+  stock: 0
+  link: https://buy.stripe.com/28EdR9fC54Bz1RDgsn5kk02
   image: /assets/media/products/fish/swordtail/media/swagtail_swordtail.jpg 
 - name: Calico Swordtail
   categories: [Ornamental Fish]
   description: Calico swordtail ornamental fresh water fish for aquariums and ponds.  
-  link: 
-  order: 
-  detail: 
+  stock: 0
+  link: https://buy.stripe.com/28EdR9fC54Bz1RDgsn5kk02 
   image: /assets/media/products/fish/swordtail/media/calico_swordtail.jpg  
 - name: Koi Swordtail
   categories: [Ornamental Fish]
   description: Koi_swordtail ornamental fresh water fish for aquariums and ponds.  
-  link: 
-  order: 
-  detail: 
+  stock: 0
+  link: https://buy.stripe.com/28EdR9fC54Bz1RDgsn5kk02
   image: /assets/media/products/fish/swordtail/media/koi_swordtail.jpg  
