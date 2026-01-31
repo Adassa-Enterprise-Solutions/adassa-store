@@ -279,3 +279,10 @@
   stock: 12
   link: https://buy.stripe.com/aFaaEXblP4BzgMx8ZV5kk03
   image: /assets/media/products/fish/guppy/media/guppy.jpg  
+- name: Goldfish
+  categories: [Ornamental Fish]
+  description: Goldfish ornamental fresh water fish for aquariums and ponds. 
+  stock: 12
+  link: https://buy.stripe.com/7sYeVddtXaZX53Pcc75kk04
+  image: /assets/media/products/fish/goldfish/media/red-cap-goldfish.png  
+  
