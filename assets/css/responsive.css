@@ -74,3 +74,13 @@
         width: 100%;
     }
 }
+
+@media (max-width: 991.98px) {
+    .custom-navbar {
+        padding: 0.5rem 0;
+    }
+
+    header {
+        margin-bottom: 0.25rem;
+    }
+}

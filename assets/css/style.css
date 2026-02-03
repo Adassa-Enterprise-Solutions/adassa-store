@@ -3,7 +3,7 @@
 
 header {
     background-color: var(--theme-header-color);
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 header .logo img {
@@ -17,12 +17,21 @@ header .logo p {
     margin-bottom: 0;
 }
 
-.navbar {
+/*.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 0;
+}*/
+
+.custom-navbar {
+    padding: 0.75rem 0;
 }
+
+/*.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,0,0,.7)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}*/
+
 
 .d-menu ul {
     display: flex;
@@ -732,3 +741,5 @@ html {
   66%  { transform: translateX(-200%); }
   100% { transform: translateX(0); }
 }
+
+
