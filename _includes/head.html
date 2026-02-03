@@ -18,17 +18,42 @@
     <meta name="twitter:image" content="{{ page.image | absolute_url }}">
     <meta name="impact-site-verification" value="1a44f2cd-cce0-444c-9623-fe6afb9ca24a">
     <meta http-equiv="Content-Security-Policy"
-          content="
-          default-src 'self';
-          script-src 'self' 'nonce-{{ csp_nonce }}' https://cdn.jsdelivr.net https://accounts.google.com https://www.googletagmanager.com;
-          style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com;
-          font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com;
-          img-src 'self' https: data:;
-          connect-src 'self' https:;
-          frame-ancestors 'none';
-          base-uri 'self';
-          object-src 'none';
-          ">
+      content="
+      default-src 'self';
+      script-src 
+        'self'
+        'nonce-{{ csp_nonce }}'
+        'unsafe-inline'
+        https://cdn.jsdelivr.net
+        https://accounts.google.com
+        https://www.googletagmanager.com
+        https://*.disqus.com
+        https://*.disquscdn.com;
+      style-src 
+        'self'
+        https://cdn.jsdelivr.net
+        https://fonts.googleapis.com
+        'unsafe-inline';
+      font-src 
+        'self'
+        https://cdn.jsdelivr.net
+        https://fonts.gstatic.com;
+      img-src 
+        'self'
+        https:
+        data:;
+      connect-src 
+        'self'
+        https:
+        https://*.disqus.com
+        https://*.disquscdn.com;
+      frame-src 
+        https://*.disqus.com;
+      frame-ancestors 'none';
+      base-uri 'self';
+      object-src 'none';
+      ">
+
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="X-Frame-Options" content="DENY">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
