@@ -1,4 +1,5 @@
 <head>  
+    {% assign csp_nonce = site.time | date: "%s" %}
     <title>{{ page.title }}</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,17 +19,18 @@
     <meta name='impact-site-verification' value='1a44f2cd-cce0-444c-9623-fe6afb9ca24a'>
     <!-- Content Security Policy (basic, safe for affiliate links) -->
     <meta http-equiv="Content-Security-Policy"
-          content="
-          default-src 'self';
-          img-src 'self' https: data:;
-          script-src 'self' https:;
-          style-src 'self' https:;
-          font-src 'self' https:;
-          connect-src 'self' https:;
-          frame-ancestors 'none';
-          base-uri 'self';
-          object-src 'none';
-          ">
+      content="
+      default-src 'self';
+      script-src 'self' 'nonce-{{ csp_nonce }}' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com;
+      style-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com;
+      img-src 'self' https: data:;
+      font-src 'self' https://fonts.gstatic.com;
+      connect-src 'self' https:;
+      frame-ancestors 'none';
+      base-uri 'self';
+      object-src 'none';
+      ">
+
 
     <!-- Prevent MIME sniffing -->
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
