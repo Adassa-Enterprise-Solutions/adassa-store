@@ -742,4 +742,11 @@ html {
   100% { transform: translateX(0); }
 }
 
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
 

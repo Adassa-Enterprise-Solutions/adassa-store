@@ -8,25 +8,25 @@
 
         <div class="qlinks">
             <h2>Partners</h2>
-            <ul style="list-style: none;">
+            <ul>
                 <a href="https://dpbennett.com.jm/" target="_blank">
                     <li>DPB&A</li>
                 </a>
-                
+
                 <a href="https://adassa.com.jm/" target="_blank">
                     <li>Adassa</li>
                 </a>
-                
+
                 <a href="https://academy.adassa.com.jm/" target="_blank">
                     <li>Academy</li>
                 </a>
-                
+
             </ul>
         </div>
 
         <div class="qlinks">
             <h2>Quick Links</h2>
-            <ul style="list-style: none;">      
+            <ul>      
                 <a href="/about">
                     <li>About</li>
                 </a>
@@ -41,7 +41,7 @@
 
         <div class="lglinks">
             <h2>Legal</h2>
-            <ul style="list-style: none;">
+            <ul>
                 <a href="/privacy-policy">
                     <li>Privacy Policy</li>
                 </a>
@@ -53,7 +53,7 @@
 
         <div class="social">
             <h2>Social</h2>
-            <ul style="list-style: none;">
+            <ul>
                 {% if site.facebook_link %}
                 <a href="{{ site.facebook_link }}" target="_blank">
                     <li><i class="bi bi-facebook"></i>facebook</li>
@@ -72,7 +72,9 @@
     </section>
     <section class="container">
         <a href="https://adassa.com.jm/">
-            <li style="list-style: none;">© {{ site.time | date: '%Y' }} {{ site.company_name }}</li>
+            <ul>
+                <li style="list-style: none;">© {{ site.time | date: '%Y' }} {{ site.company_name }}</li>
+            </ul>
         </a>
     </section>
 </footer>

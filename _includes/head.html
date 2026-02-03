@@ -1,87 +1,62 @@
-<head>  
+<head>
     {% assign csp_nonce = site.time | date: "%s" %}
     <title>{{ page.title }}</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ page.description }}" />
-    <meta property="og:title" content="{{ page.title | escape }}" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="{{ page.url | absolute_url }}" />
-    <meta property="og:image" content="{{ page.image | absolute_url }}" />
-    <meta property="og:description" content="{{ page.description | escape }}" />
-    <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="fb:app_id" content="2253948921630190" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{{ page.title | escape }}" />
-    <meta name="twitter:description" content="{{ page.description | escape }}" />
-    <meta name="twitter:image" content="{{ page.image | absolute_url }}" />    
-    <meta name='impact-site-verification' value='1a44f2cd-cce0-444c-9623-fe6afb9ca24a'>
-    <!-- Content Security Policy (basic, safe for affiliate links) -->
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:title" content="{{ page.title | escape }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ page.image | absolute_url }}">
+    <meta property="og:description" content="{{ page.description | escape }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="fb:app_id" content="2253948921630190">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | escape }}">
+    <meta name="twitter:description" content="{{ page.description | escape }}">
+    <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+    <meta name="impact-site-verification" value="1a44f2cd-cce0-444c-9623-fe6afb9ca24a">
     <meta http-equiv="Content-Security-Policy"
-      content="
-      default-src 'self';
-      script-src 'self' 'nonce-{{ csp_nonce }}' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com;
-      style-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com;
-      img-src 'self' https: data:;
-      font-src 'self' https://fonts.gstatic.com;
-      connect-src 'self' https:;
-      frame-ancestors 'none';
-      base-uri 'self';
-      object-src 'none';
-      ">
-
-
-    <!-- Prevent MIME sniffing -->
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-
-    <!-- Clickjacking protection -->
-    <meta http-equiv="X-Frame-Options" content="DENY">
-
-    <!-- Referrer privacy -->
-    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
-
-    <!-- Disable unnecessary browser features -->
-    <meta http-equiv="Permissions-Policy"
           content="
-          camera=(),
-          microphone=(),
-          geolocation=(),
-          payment=(),
-          usb=()
+          default-src 'self';
+          script-src 'self' 'nonce-{{ csp_nonce }}' https://cdn.jsdelivr.net https://accounts.google.com https://www.googletagmanager.com;
+          style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com;
+          font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com;
+          img-src 'self' https: data:;
+          connect-src 'self' https:;
+          frame-ancestors 'none';
+          base-uri 'self';
+          object-src 'none';
           ">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy"
+          content="camera=(), microphone=(), geolocation=(), payment=(), usb=()">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="icon" href="/assets/media/ASLogo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/responsive.css"> 
-    <!-- Google Sign In -->
-    <script src="https://accounts.google.com/gsi/client" async="async" defer="defer"></script>
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
-    <script>
-function handleCredentialResponse(response) {
-    // Extract the credential (JWT ID token)
-    const idToken = response.credential;
-
-    // Decode the JWT token to get its payload
-    const decodedToken = jwt_decode(idToken);
-    //console.log('Decoded Token:', decodedToken);
-
-    // Now you can access the fields in the decoded token
-    const email = decodedToken.email;
-    const name = decodedToken.sub; // tk sub could be stored in the database as userId field.
-
-    alert('Yes!: ' + email + " name: " + name);
-}
-    </script>  
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-78KB23629K"></script>
-    <script>
+    <script nonce="{{ csp_nonce }}">
 window.dataLayer = window.dataLayer || [];
 function gtag() {
     dataLayer.push(arguments);
 }
 gtag('js', new Date());
-
 gtag('config', 'G-78KB23629K');
     </script>
 </head>
