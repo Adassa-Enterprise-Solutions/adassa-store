@@ -1,26 +1,40 @@
-<section class="disqus">
+<section id="disqus-container" class="disqus">
     <div id="disqus_thread"></div>
-    <script>
-        /**
-         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-         */
-        
-         var disqus_config = function () {
-         this.page.url = "{{ page.url | absolute_url }}";  // Replace PAGE_URL with your page's canonical URL variable
-         this.page.identifier = "{{ page.identifier | default: page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-         };
-         
-        (function () {  // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-
-            s.src = 'https://adassa.disqus.com/embed.js';
-
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the 
+    <noscript>
+    Please enable JavaScript to view the 
     <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
     </noscript>
 </section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Only load Disqus when user scrolls near the container
+        var disqusLoaded = false;
+        var disqusContainer = document.getElementById("disqus-container");
+
+        function loadDisqus() {
+            if (disqusLoaded)
+                return;
+            var d = document, s = d.createElement('script');
+            s.src = 'https://adassa.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            disqusLoaded = true;
+        }
+
+        window.addEventListener("scroll", function () {
+            if (!disqusLoaded) {
+                var rect = disqusContainer.getBoundingClientRect();
+                if (rect.top < window.innerHeight + 200) { // 200px before it enters view
+                    loadDisqus();
+                }
+            }
+        });
+
+        // Also load immediately if already in viewport (for short posts)
+        var rect = disqusContainer.getBoundingClientRect();
+        if (rect.top < window.innerHeight) {
+            loadDisqus();
+        }
+    });
+</script>

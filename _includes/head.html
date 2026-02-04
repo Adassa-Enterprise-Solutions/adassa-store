@@ -17,48 +17,34 @@
     <meta name="twitter:description" content="{{ page.description | escape }}">
     <meta name="twitter:image" content="{{ page.image | absolute_url }}">
     <meta name="impact-site-verification" value="1a44f2cd-cce0-444c-9623-fe6afb9ca24a">
+
+    {% comment %}
+    CSP Logic:
+    - Post pages (`layout: post-layout`) → NO CSP (Disqus requires unrestricted scripts)
+    - Other pages → strict CSP with nonce
+    {% endcomment %}
+    {% if page.layout != "post-layout" %}
     <meta http-equiv="Content-Security-Policy"
-      content="
-      default-src 'self';
-      script-src 
-        'self'
-        'nonce-{{ csp_nonce }}'
-        'unsafe-inline'
-        https://cdn.jsdelivr.net
-        https://accounts.google.com
-        https://www.googletagmanager.com
-        https://*.disqus.com
-        https://*.disquscdn.com;
-      style-src 
-        'self'
-        https://cdn.jsdelivr.net
-        https://fonts.googleapis.com
-        'unsafe-inline';
-      font-src 
-        'self'
-        https://cdn.jsdelivr.net
-        https://fonts.gstatic.com;
-      img-src 
-        'self'
-        https:
-        data:;
-      connect-src 
-        'self'
-        https:
-        https://*.disqus.com
-        https://*.disquscdn.com;
-      frame-src 
-        https://*.disqus.com;
-      frame-ancestors 'none';
-      base-uri 'self';
-      object-src 'none';
-      ">
+          content="
+          default-src 'self';
+          script-src 'self' 'nonce-{{ csp_nonce }}' https://cdn.jsdelivr.net https://accounts.google.com https://www.googletagmanager.com https://www.youtube.com https://s.ytimg.com;
+          style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com;
+          font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com;
+          img-src 'self' https: data:;
+          connect-src 'self' https:;
+          frame-src https://www.youtube.com https://www.youtube-nocookie.com;
+          object-src 'none';
+          base-uri 'self';
+          frame-ancestors 'none';
+          ">
+    {% endif %}
 
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="X-Frame-Options" content="DENY">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
     <meta http-equiv="Permissions-Policy"
           content="camera=(), microphone=(), geolocation=(), payment=(), usb=()">
+
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="icon" href="/assets/media/ASLogo.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,15 +59,17 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/responsive.css">
+
+    <!-- Google Identity Services -->
     <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <!-- JWT Decode -->
     <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-78KB23629K"></script>
     <script nonce="{{ csp_nonce }}">
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-    dataLayer.push(arguments);
-}
-gtag('js', new Date());
-gtag('config', 'G-78KB23629K');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-78KB23629K');
     </script>
 </head>
