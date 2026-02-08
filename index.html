@@ -25,7 +25,7 @@ last_modified_at: 2025-05-03
     </div>
     <div class="products">
         {% for product in site.data.products %}
-        {% if product.categories contains 'Ornamental Fish' %}
+        {% if product.name contains 'Fish Food' or product.categories contains 'Fish Food' %}
         <div class="centred">
 
             <h2 class="title">
