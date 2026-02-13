@@ -83,15 +83,9 @@
 <script type="module" src="/assets/js/main.js"></script>
 <script>
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/service-worker.js')
-      .then(function(registration) {
-        console.log('ServiceWorker registered:', registration.scope);
-      })
-      .catch(function(error) {
-        console.log('ServiceWorker registration failed:', error);
-      });
-  });
+    navigator.serviceWorker.register('{{ "/service-worker.js" | relative_url }}')
+            .then(() => console.log("PWA: Service Worker registered"))
+            .catch(err => console.error("PWA: registration failed", err));
 }
 </script>
 
