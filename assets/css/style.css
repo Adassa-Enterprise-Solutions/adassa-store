@@ -2,8 +2,8 @@
 @import url(./utility.css);
 
 header {
-    background-color: var(--theme-header-color);
-    margin-bottom: 1em;
+    background-color: white;
+    background-image: radial-gradient(var(--theme-header-color), white);
 }
 
 header .logo img {
@@ -15,6 +15,13 @@ header .logo p {
     font-style: italic;
     font-weight: normal;
     margin-bottom: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
 }
 
 .d-menu ul {
@@ -31,7 +38,7 @@ header .logo p {
 }
 
 .d-menu ul li:hover {
-    color: var(--theme-color-hover);
+    color: var(--theme-color);
 }
 
 .m-menu {
@@ -54,7 +61,7 @@ header .logo p {
     font-size: 1.8rem;
     display: flex;
     flex-direction: column;
-    background-color: var(--theme-color);
+    background-color: var(--theme-background-color);
     padding: 3rem 3rem;
     border-radius: 7px;
     box-shadow: 5px 3px 2px rgb(140 152 164 / 15%);
@@ -63,18 +70,19 @@ header .logo p {
 .m-menu .m-navbar li {
     padding: 1rem 2rem;
     font-weight: 500;
-    color: var(--theme-text);
+    color: var(--theme-text-dull);
 }
 
 .m-menu .m-navbar li:hover {
     cursor: pointer;
-    color: var(--theme-color-hover);
-    background-color: var(--theme-color-hover);
+    color: var(--theme-color);
+    background-color: #b8dfff;
     border-radius: 5px;
 }
 
 .btn {
-    background-color: var(--theme-gradient-color-2);
+    background-color: var(--theme-gradient-color-1);
+    background-image: linear-gradient(160deg, var(--theme-gradient-color-1) 0%, var(--theme-gradient-color-2) 100%);
     border: none;
     border-radius: 20px;
     font-size: 1.5rem;
@@ -113,7 +121,7 @@ header .logo p {
 }
 
 .introduction {
-    background-color: var(--theme-color)
+    background-image: radial-gradient(#d3f0fd, white);
 }
 
 .introduction .tag-line {
@@ -185,7 +193,7 @@ header .logo p {
 }
 
 .growth {
-    background-color: var(--theme-color);
+    background-color: var(--theme-section-bg);
     border-radius: 24px;
     margin: 0rem auto 5rem auto;
     font-size: 2rem;
@@ -240,79 +248,11 @@ header .logo p {
     color: var(--theme-text-long);
 }
 
-/* JMTS */
-
-.introduction .jmts-main-line {
-    font-weight: 600;
-    color: var(--theme-text);
-    font-size: 3rem;
-    margin-bottom: 0rem;
-    position: relative;
-}
-
-.jmts {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 3rem auto 5rem auto;
-}
-
-.jmts div {
-    width: 350px;
-    margin: 1rem;
-    padding: 2rem 0;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    background-image: radial-gradient(white, lightyellow);
-    justify-content: center;
-}
-
-.jmts div a {
-    margin: 2rem 6rem auto 6rem;
-}
-
-.jmts p {
-    margin-top: 2rem;
-    text-align: center;
-}
-
-.jmts .icon {
-    background-color: var(--theme-color);
-    width: 70px;
-    height: 70px;
-    font-size: 4rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-}
-
-.jmts .icon:hover {
-    transform: scale(1.1);
-    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
-    cursor: pointer;
-}
-
-.jmts .title {
-    font-weight: 500;
-    margin: auto 1rem auto 1rem;
-}
-
-.jmts .description {
-    font-size: 1.6rem;
-    color: var(--theme-text);
-    margin: 1rem 1rem auto 1rem;
-}
-
-/* Products */
-
 .products {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 0.5rem auto 5rem auto;
+    margin: 3rem auto 5rem auto;
 }
 
 .products div {
@@ -350,7 +290,7 @@ header .logo p {
 
 .products .title {
     font-weight: 500;
-    margin: auto 1rem 1rem 1rem;
+    margin: auto 1rem auto 1rem;
 }
 
 .products .description {
@@ -358,24 +298,6 @@ header .logo p {
     color: var(--theme-text);
     margin: 1rem 1rem auto 1rem;
 }
-
-.product-card {
-    display: flex;
-    flex-direction: column;
-}
-
-.action {
-    display: flex;
-    gap: 0.5rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 95% !important;
-}
-
-
-
-
-/* Services */
 
 .services {
     display: flex;
@@ -445,16 +367,15 @@ header .logo p {
     padding-top: 10rem;
 }
 
-/* General content */
-
 .form-title {
     font-weight:bold;
-    font-size: large;
+    font-size: x-large;
     text-align: center;
+    margin-top: 1em;
 }
 
 .form-description {
-    font-size: medium;
+    font-size: large;
 }
 
 .content {
@@ -553,7 +474,8 @@ header .logo p {
 }
 
 footer {
-    background-color: var(--theme-footer-color);
+    background-color: var(--theme-section-bg);
+    background-image: radial-gradient(#d3f0fd, white);
 }
 
 footer .logo img {
@@ -604,7 +526,7 @@ footer .bi-youtube {
 }
 
 .feedback-form {
-    font-size: 2rem;
+    font-size: large;
 }
 
 .form-control {
@@ -621,28 +543,27 @@ footer .bi-youtube {
 }
 
 .post-feature-image {
-    width: 50%;
+    width: 200px;
 }
 
 .navbar-nav .nav-item .nav-link {
     color: darkblue;
 }
 
-.nav-item-highlighted {
-    color: whitesmoke;
-    background-color: lightblue;
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+.section-heading {
+  color: whitesmoke !important;  
 }
 
-ul, ol {
-    margin-left: 1.5rem;
-    padding-left: 1rem; 
-    list-style-position: outside;
+.custom-navbar {
+    padding: 0.75rem 0;
 }
 
-html {
-    scroll-padding-top: 80px;
+.margin-right-1rem {
+    margin-right: 1em;
+}
+
+.container-top-spacing {
+    margin-top: 2em;
 }
 
 .hero {
@@ -662,6 +583,17 @@ html {
     font-weight: normal;
     font-size: 2rem;
     color: gray;   
+}
+
+.featured-products {
+    text-align: center;
+}
+
+.featured-products h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: darkgray;
+    margin-top: 50px;
 }
 
 .recent-articles {
@@ -687,54 +619,4 @@ html {
     font-weight: normal;
     font-size: 1.5rem;
     color: gray;   
-}
-
-.featured-products {
-    text-align: center;
-}
-
-.featured-products h1 {
-    font-weight: bold;
-    font-size: 2.5rem;
-    color: darkgray;
-    margin-top: 50px;
-}
-
-.carousel {
-  position: relative;
-  width: 100%;
-  max-height: 400px;
-  overflow: hidden;
-}
-
-.carousel-slides {
-  display: flex;
-  width: 300%;
-  animation: slide 12s infinite;
-}
-
-.carousel-slides img {
-  width: 100%;
-  object-fit: cover;
-}
-
-@keyframes slide {
-  0%   { transform: translateX(0); }
-  33%  { transform: translateX(-100%); }
-  66%  { transform: translateX(-200%); }
-  100% { transform: translateX(0); }
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
-    margin-left: 0;
-}
-
-.section-heading {
-  color: whitesmoke !important;  
-}
-
-.custom-navbar {
-    padding: 0.75rem 0;
 }
