@@ -1,6 +1,6 @@
 {
     "name": "Adassa Store",
-    "short_name": "AS",
+    "short_name": "Adassa Store",
     "description": "All your personal and business needs.",
     "start_url": "/?source=pwa",
     "scope": "/",
